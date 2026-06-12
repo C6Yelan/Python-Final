@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Storage Product Schema",
+  "type": "object",
+  "additionalProperties": false,
+
+  "required": [
+    "category",
+    "display_name",
+    "price",
+    "extra"
+  ],
+
+  "properties": {
+    "category": {
+      "type": "string",
+      "const": "儲存裝置"
+    },
+
+    "display_name": {
+      "type": "string",
+      "minLength": 1
+    },
+
+    "price": {
+      "type": "integer",
+      "minimum": 0
+    },
+
+    "extra": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "brand",
+        "model",
+        "capacity",
+        "form_factor",
+        "interface",
+        "read_speed",
+        "write_speed",
+        "flash_type"
+      ],
+
+      "properties": {
+        "brand": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "model": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "capacity": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "form_factor": {
+          "type": ["string", "null"],
+          "enum": ["2.5吋", "M.2", "M.2 2230", "M.2 2242", null]
+        },
+
+        "interface": {
+          "type": ["string", "null"],
+          "enum": ["SATA", "PCIe 3.0", "PCIe 4.0", "PCIe 5.0", null]
+        },
+
+        "read_speed": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+
+        "write_speed": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+
+        "flash_type": {
+          "type": ["string", "null"],
+          "enum": ["TLC", "QLC", "NAND", null]
+        }
+      }
+    }
+  }
+}

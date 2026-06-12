@@ -4,12 +4,16 @@ from bs4 import BeautifulSoup
 
 from src.normalizer import normalize_item
 from src.analyzers.cpu_analyzer import analyze_cpu_title
+from src.analyzers.storage_analyzer import analyze_storage_title
 
 
 def get_extra_by_category(part_name, display_name):
     # 依照零件類別取得額外分析資料。
     if part_name == "CPU":
         return analyze_cpu_title(display_name)
+
+    if part_name == "儲存裝置":
+        return analyze_storage_title(display_name)
 
     return None
 

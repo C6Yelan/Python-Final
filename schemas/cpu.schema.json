@@ -42,12 +42,13 @@
 
       "properties": {
         "brand": {
-          "type": ["string", "null"],
-          "enum": ["Intel", "AMD", null]
+          "type": "string",
+          "enum": ["Intel", "AMD"]
         },
 
         "model": {
-          "type": ["string", "null"]
+          "type": "string",
+          "minLength": 1
         },
 
         "core_count": {
