@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>原價屋處理器CPU總覽</title>
+<style>
+b{padding-left:5px;color:blue}
+body{overflow:auto}
+.g{color:#888}
+.On{hidden;background-color:gold}
+.main *{font:8pt "Arial"}
+.main span{display:inline-block;width:350px;height:260px;float:left;margin:11px;border:1px solid #ccc;box-shadow:8px 8px 4px grey;border-radius:7px;}
+.main span img{width:140px;height:252px;float:left;margin:4px;}
+.main span:hover{border:1px solid #666;}
+.t{font-size:9pt;color:#630;margin:6px 0px}
+.x, .x *{font-size:9pt;margin:4px 0px 2px 0}
+.w{display:none}
+#show *{font:15pt "Arial"}
+#show{position:fixed;top:50%;left:50%;margin-left:-300px;margin-top:-275px;width:600px;height:550px;padding:5px;background-color:#fff;border:1px solid #666;;border-radius:13px}
+#show img{width:300px;height:540px;float:left;}
+.buy{color:white;background-color:orange;cursor:pointer;padding:1px 6px 1px 6px;border-radius:7px}
+</style>
+<script>
+var Obj, Protocol = ('https:' == document.location.protocol) ? 'https://' : 'http://'
+
+function Show(a){
+var E=document.getElementById("show")
+if (Obj) Obj.className=""
+a.className="On"
+E.innerHTML=a.innerHTML
+E.style.display=""
+Obj=a
+}
+function Buy(a){
+if (prompt("可以複製下列的URL",Protocol+"www.coolpc.com.tw/evaluate.php?iBuy="+Item[a].textContent)){
+ F.iBuy.value=Item[a].textContent
+ F.submit()}
+}
+function url(a, b){
+b.title="前往\u2192 "+Protocol+"www.coolpc.com.tw/evaluate.php?iBuy="+Item[a].textContent
+}
+</script>
+</head>
+<body onload="Item=document.getElementsByClassName('w')">
+<div id=show onclick="this.style.display='none'" style="display:none"></div>
+<div class=main>
+
+<div class=w>SW50ZWwgQ29yZSBVbHRyYSA1IDIyNUahaTEwrtahajMuM0coofQ0LjlHKSAvMjBNIC+1TKS6xeOhaaVOsnqysLjLoWo=</div>
+<span onclick='Show(this)'><img src='/eval/4/intelcoreultra200snk.jpg'><div class=t>Intel Core Ultra 5 225F【10.5核】3.3G(↑4.9G) /20M /無內顯【代理盒裝】</div>
+<div class=x>含稅：NT-4880 &nbsp;&diams;<a href='https://www.intel.com.tw/content/www/tw/zh/products/sku/241069/intel-core-ultra-5-processor-225f-20m-cache-up-to-4-90-ghz/specifications.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(0, this)' onclick="Buy('0')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgQ29yZSBVbHRyYSA1IDIyNaFpMTCu1qFqMy4zRyih9DQuOUcpIC8yME0gL6S6xeNYZS1jb3JloWmlTrJ6srC4y6Fq</div>
+<span onclick='Show(this)'><img src='/eval/4/intelcoreultra200snk.jpg'><div class=t>Intel Core Ultra 5 225【10核】3.3G(↑4.9G) /20M /內顯Xe-core【代理盒裝】</div>
+<div class=x>含稅：NT5280 &nbsp;&diams;<a href='https://www.intel.com.tw/content/www/tw/zh/products/sku/241070/intel-core-ultra-5-processor-225-20m-cache-up-to-4-90-ghz/specifications.html?wapkw=225' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(1, this)' onclick="Buy('1')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgQ29yZSBVbHRyYSA1IDI0NUtGoWkxNK7WoWo0LjJHKKH0NS4yRykgLzI0TSAvtUykusXjIC+1TK23rrChaaVOsnqysLjLoWo=</div>
+<span onclick='Show(this)'><img src='/eval/4/intelcoreultra200s.jpg'><div class=t>Intel Core Ultra 5 245KF【14核】4.2G(↑5.2G) /24M /無內顯 /無風扇【代理盒裝】</div>
+<div class=x>含稅：NT6300 &nbsp;&diams;<a href='https://www.intel.com.tw/content/www/tw/zh/products/sku/241066/intel-core-ultra-5-processor-245kf-24m-cache-up-to-5-20-ghz/specifications.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(2, this)' onclick="Buy('2')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgQ29yZSBVbHRyYSA1IDI0NUuhaTE0rtahajQuMkcoofQ1LjJHKSAvMjRNIC+kusXjWGUtY29yZSAvtUytt66woWmlTrJ6srC4y6Fq</div>
+<span onclick='Show(this)'><img src='/eval/4/intelcoreultra200s.jpg'><div class=t>Intel Core Ultra 5 245K【14核】4.2G(↑5.2G) /24M /內顯Xe-core /無風扇【代理盒裝】</div>
+<div class=x>含稅：NT6990 &nbsp;&diams;<a href='https://www.intel.com.tw/content/www/tw/zh/products/sku/241067/intel-core-ultra-5-processor-245k-24m-cache-up-to-5-20-ghz/specifications.html?wapkw=245k' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(3, this)' onclick="Buy('3')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgQ29yZSBVbHRyYSA3IDI2NUtGoWkyMK7WoWozLjlHKKH0NS40RykgLzMwTSAvtUykusXjIC+1TK23rrChaaVOsnqysLjLoWo=</div>
+<span onclick='Show(this)'><img src='/eval/4/intelcoreultra200s.jpg'><div class=t>Intel Core Ultra 7 265KF【20核】3.9G(↑5.4G) /30M /無內顯 /無風扇【代理盒裝】</div>
+<div class=x>含稅：NT9700 &nbsp;&diams;<a href='https://www.intel.com.tw/content/www/tw/zh/products/sku/241062/intel-core-ultra-7-processor-265kf-30m-cache-up-to-5-50-ghz/specifications.html?wapkw=265kf' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(4, this)' onclick="Buy('4')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgQ29yZSBVbHRyYSA3IDI2NUuhaTIwrtahajMuOUcoofQ1LjRHKSAvMzBNIC+kusXjWGUtY29yZSAvtUytt66woWmlTrJ6srC4y6Fq</div>
+<span onclick='Show(this)'><img src='/eval/4/intelcoreultra200s.jpg'><div class=t>Intel Core Ultra 7 265K【20核】3.9G(↑5.4G) /30M /內顯Xe-core /無風扇【代理盒裝】</div>
+<div class=x>含稅：NT10300 &nbsp;&diams;<a href='https://www.intel.com.tw/content/www/tw/zh/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html?wapkw=265k' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(5, this)' onclick="Buy('5')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgQ29yZSBVbHRyYSA5IDI4NUuhaTI0rtahajMuN0coofQ1LjdHKSAvMzZNIC+kusXjWGUtY29yZSAvtUytt66woWmlTrJ6srC4y6Fq</div>
+<span onclick='Show(this)'><img src='/eval/4/intelcoreultra200s.jpg'><div class=t>Intel Core Ultra 9 285K【24核】3.7G(↑5.7G) /36M /內顯Xe-core /無風扇【代理盒裝】</div>
+<div class=x>含稅：NT18600 &nbsp;&diams;<a href='https://www.intel.com.tw/content/www/tw/zh/products/sku/241060/intel-core-ultra-9-processor-285k-36m-cache-up-to-5-70-ghz/specifications.html?wapkw=285k' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(6, this)' onclick="Buy('6')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgQ29yZSBVbHRyYSA1IDI1MEtGIFBsdXOhaTE4rtahajQuMkcoofQ1LjNHKSAvMzBNIC+1TKS6xeMgL7VMrbeusKFppU6yerKwuMuhag==</div>
+<span onclick='Show(this)'><img src='/eval/4/intelcoreultra200sn.jpg'><div class=t>Intel Core Ultra 5 250KF Plus【18核】4.2G(↑5.3G) /30M /無內顯 /無風扇【代理盒裝】</div>
+<div class=x>含稅：NT8250 &nbsp;<font class=buy onmouseover='url(7, this)' onclick="Buy('7')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgQ29yZSBVbHRyYSA1IDI1MEsgUGx1c6FpMTiu1qFqNC4yRyih9DUuM0cpIC8zME0gL6S6xeNYZS1jb3JlIC+1TK23rrChaaVOsnqysLjLoWo=</div>
+<span onclick='Show(this)'><img src='/eval/4/intelcoreultra200sn.jpg'><div class=t>Intel Core Ultra 5 250K Plus【18核】4.2G(↑5.3G) /30M /內顯Xe-core /無風扇【代理盒裝】</div>
+<div class=x>含稅：NT8800 &nbsp;<font class=buy onmouseover='url(8, this)' onclick="Buy('8')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgQ29yZSBVbHRyYSA3IDI3MEsgUGx1c6FpMjSu1qFqMy43Ryih9DUuNEcpIC8zNk0gL6S6xeNYZS1jb3JlIC+1TK23rrChaaVOsnqysLjLoWo=</div>
+<span onclick='Show(this)'><img src='/eval/4/intelcoreultra200sn.jpg'><div class=t>Intel Core Ultra 7 270K Plus【24核】3.7G(↑5.4G) /36M /內顯Xe-core /無風扇【代理盒裝】</div>
+<div class=x>含稅：NT12500 &nbsp;<font class=buy onmouseover='url(9, this)' onclick="Buy('9')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgaTUtMTQ0MDBGoWkxMK7WLzE2uvyhajIuNUdIeiih9DQuN0cpIC8yME0gL7VMpLrF4yAvNjVXIKFppU6yerKwuMuhan6trbLVuMt+</div>
+<span onclick='Show(this)'><img src='/eval/4/intel14th.jpg'><div class=t>Intel i5-14400F【10核/16緒】2.5GHz(↑4.7G) /20M /無內顯 /65W 【代理盒裝】~限組裝~</div>
+<div class=x>含稅：NT6250 &nbsp;&diams;<a href='https://www.intel.com.tw/content/www/tw/zh/products/sku/236777/intel-core-i5-processor-14400f-20m-cache-up-to-4-70-ghz/specifications.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(10, this)' onclick="Buy('10')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgaTUtMTQ0MDChaTEwrtYvMTa6/KFqMi41R0h6KKH0NC43RykgLzIwTSAvVUhENzMwIC82NVcgoWmlTrJ6srC4y6Fq</div>
+<span onclick='Show(this)'><img src='/eval/4/intel14th.jpg'><div class=t>Intel i5-14400【10核/16緒】2.5GHz(↑4.7G) /20M /UHD730 /65W 【代理盒裝】</div>
+<div class=x>含稅：NT7250 &nbsp;&diams;<a href='https://www.intel.com.tw/content/www/tw/zh/products/sku/236788/intel-core-i5-processor-14400-20m-cache-up-to-4-70-ghz/specifications.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(11, this)' onclick="Buy('11')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgaTUtMTQ0MDChaTEwrtYvMTa6/KFqMi41R0h6KKH0NC43RykgLzIwTSAvVUhENzMwIC82NVcgoWmlTrJ6srC4y6FqfrLVuMu7+X4=</div>
+<span onclick='Show(this)'><img src='/eval/4/intel14th.jpg'><div class=t>Intel i5-14400【10核/16緒】2.5GHz(↑4.7G) /20M /UHD730 /65W 【代理盒裝】~組裝價~</div>
+<div class=x>含稅：NT6990 &nbsp;&diams;<a href='https://www.intel.com.tw/content/www/tw/zh/products/sku/236788/intel-core-i5-processor-14400-20m-cache-up-to-4-70-ghz/specifications.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(12, this)' onclick="Buy('12')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgaTctMTQ3MDChaTIwrtYvMji6/KFqMi4xR0h6KKH0NS40RykgLzMzTSAvVUhENzcwIC82NVcgoWmlTrJ6srC4y6Fq</div>
+<span onclick='Show(this)'><img src='/eval/4/intel14th.jpg'><div class=t>Intel i7-14700【20核/28緒】2.1GHz(↑5.4G) /33M /UHD770 /65W 【代理盒裝】</div>
+<div class=x>含稅：NT11500 &nbsp;&diams;<a href='https://www.intel.com.tw/content/www/tw/zh/products/sku/236781/intel-core-i7-processor-14700-33m-cache-up-to-5-40-ghz/specifications.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(13, this)' onclick="Buy('13')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgaTctMTQ3MDChaTIwrtYvMji6/KFqMi4xR0h6KKH0NS40RykgLzMzTSAvVUhENzcwIC82NVcgoWmlTrJ6srC4y6FqfrLVuMu7+X4=</div>
+<span onclick='Show(this)'><img src='/eval/4/intel14th.jpg'><div class=t>Intel i7-14700【20核/28緒】2.1GHz(↑5.4G) /33M /UHD770 /65W 【代理盒裝】~組裝價~</div>
+<div class=x>含稅：NT11000 &nbsp;&diams;<a href='https://www.intel.com.tw/content/www/tw/zh/products/sku/236781/intel-core-i7-processor-14700-33m-cache-up-to-5-40-ghz/specifications.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(14, this)' onclick="Buy('14')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgaTUtMTI0MDBGoWk2rtYvMTK6/KFqMi41Ryih9DQuNEcpIC8xOE0gL7VMpLrF4yAvNjV3IKFppU6yerKwuMuhag==</div>
+<span onclick='Show(this)'><img src='/eval/4/intel12th.jpg'><div class=t>Intel i5-12400F【6核/12緒】2.5G(↑4.4G) /18M /無內顯 /65w 【代理盒裝】</div>
+<div class=x>含稅：NT5100 &nbsp;&diams;<a href='https://ark.intel.com/content/www/tw/zh/ark/products/134587/intel-core-i5-12400f-processor-18m-cache-up-to-4-40-ghz.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(15, this)' onclick="Buy('15')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgaTUtMTI0MDBGoWk2rtYvMTK6/KFqMi41Ryih9DQuNEcpIC8xOE0gL7VMpLrF4yAvNjV3IKFppU6yerKwuMuhan6y1bjLu/l+</div>
+<span onclick='Show(this)'><img src='/eval/4/intel12th.jpg'><div class=t>Intel i5-12400F【6核/12緒】2.5G(↑4.4G) /18M /無內顯 /65w 【代理盒裝】~組裝價~</div>
+<div class=x>含稅：NT4950 &nbsp;&diams;<a href='https://ark.intel.com/content/www/tw/zh/ark/products/134587/intel-core-i5-12400f-processor-18m-cache-up-to-4-40-ghz.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(16, this)' onclick="Buy('16')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgaTUtMTI0MDChaTau1i8xMrr8oWoyLjVHKKH0NC40RykgLzE4TSAvVUhENzMwIC82NXcgoWmlTrJ6srC4y6Fq</div>
+<span onclick='Show(this)'><img src='/eval/4/intel12th.jpg'><div class=t>Intel i5-12400【6核/12緒】2.5G(↑4.4G) /18M /UHD730 /65w 【代理盒裝】</div>
+<div class=x>含稅：NT6100 &nbsp;&diams;<a href='https://ark.intel.com/content/www/tw/zh/ark/products/134586/intel-core-i5-12400-processor-18m-cache-up-to-4-40-ghz.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(17, this)' onclick="Buy('17')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgaTUtMTI0MDChaTau1i8xMrr8oWoyLjVHKKH0NC40RykgLzE4TSAvVUhENzMwIC82NXcgoWmlTrJ6srC4y6FqfrLVuMu7+X4=</div>
+<span onclick='Show(this)'><img src='/eval/4/intel12th.jpg'><div class=t>Intel i5-12400【6核/12緒】2.5G(↑4.4G) /18M /UHD730 /65w 【代理盒裝】~組裝價~</div>
+<div class=x>含稅：NT5900 &nbsp;&diams;<a href='https://ark.intel.com/content/www/tw/zh/ark/products/134586/intel-core-i5-12400-processor-18m-cache-up-to-4-40-ghz.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(18, this)' onclick="Buy('18')">Buy</font></div></span>
+
+<div class=w>SW50ZWwgWGVvbiBXNS0yNDU1WKFpMTKu1i8yNLr8oWozLjIwR0h6KKH0NC42R0h6KSAvMzBNIC8yMDBXIKFppU6yerKwuMuhag==</div>
+<span onclick='Show(this)'><img src='/eval/4/intelxeonscalable.jpg'><div class=t>Intel Xeon W5-2455X【12核/24緒】3.20GHz(↑4.6GHz) /30M /200W 【代理盒裝】</div>
+<div class=x>含稅：NT36700 &nbsp;&diams;<a href='https://www.intel.com.tw/content/www/tw/zh/products/sku/233420/intel-xeon-w52455x-processor-30m-cache-3-20-ghz/specifications.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(19, this)' onclick="Buy('19')">Buy</font></div></span>
+
+<div class=w>QU1EIFI1IDU1MDBHVCClTrJ6srC4y6FpNq7WLzEyuvyhajMuNkcoofQ0LjRHKTY1VyAvp3SkusXjLzdubQ==</div>
+<span onclick='Show(this)'><img src='/eval/4/amd5000s.jpg'><div class=t>AMD R5 5500GT 代理盒裝【6核/12緒】3.6G(↑4.4G)65W /含內顯/7nm</div>
+<div class=x>含稅：NT4190 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/support/downloads/previous-drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500gt.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(20, this)' onclick="Buy('20')">Buy</font></div></span>
+
+<div class=w>QU1EIFI1IDU1MDBYM0QgpU6yerKwuMuhaTau1i8xMrr8oWozLjBHKKH0NC4wRykxMDVXIC85Nk0gLzdubQ==</div>
+<span onclick='Show(this)'><img src='/eval/4/amd5000s.jpg'><div class=t>AMD R5 5500X3D 代理盒裝【6核/12緒】3.0G(↑4.0G)105W /96M /7nm</div>
+<div class=x>含稅：NT5390 &nbsp;<font class=buy onmouseover='url(21, this)' onclick="Buy('21')">Buy</font></div></span>
+
+<div class=w>QU1EIFI1IDU2MDBHVCClTrJ6srC4y6FpNq7WLzEyuvyhajMuNkcoofQ0LjZHKTY1VyAvp3SkusXjLzdubQ==</div>
+<span onclick='Show(this)'><img src='/eval/4/amd5000s.jpg'><div class=t>AMD R5 5600GT 代理盒裝【6核/12緒】3.6G(↑4.6G)65W /含內顯/7nm</div>
+<div class=x>含稅：NT4690 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/support/downloads/previous-drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600gt.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(22, this)' onclick="Buy('22')">Buy</font></div></span>
+
+<div class=w>QU1EIFI1IDc1MDBGIE1QSyindK23rrApoWk2rtYvMTK6/KFqMy43Ryih9DUuMEcppU6yerDTpFSmfqtP</div>
+<span onclick='Show(this)'><img src='/eval/4/amdr57000mpk.jpg'><div class=t>AMD R5 7500F MPK(含風扇)【6核/12緒】3.7G(↑5.0G)代理商三年保</div>
+<div class=x>含稅：NT4790 &nbsp;&diams;<a href='https://www.amd.com/content/dam/amd/en/documents/partner-hub/ryzen/amd-ryzen-7000-series-desktop-processors-quick-reference-guide.pdf' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(23, this)' onclick="Buy('23')">Buy</font></div></span>
+
+<div class=w>W7dmqk+xTa7XIC0zMDBdQU1EIFI1IDc1MDBGIE1QSyindK23rrApoWk2rtYvMTK6/KFqMy43Ryih9DUuMEcppfS3ZqVEvveqT7J7rNkzMDA=</div>
+<span onclick='Show(this)'><img src='/eval/4/amdr57000mpk.jpg'><div class=t>[搭板專案 -300]AMD R5 7500F MPK(含風扇)【6核/12緒】3.7G(↑5.0G)任搭主機板現省300</div>
+<div class=x>含稅：NT4490 &nbsp;&diams;<a href='https://www.amd.com/content/dam/amd/en/documents/partner-hub/ryzen/amd-ryzen-7000-series-desktop-processors-quick-reference-guide.pdf' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(24, this)' onclick="Buy('24')">Buy</font></div></span>
+
+<div class=w>QU1EIFI3IDc3MDAgTVBLKKVOsnqndK23rrApoWk4rtYvMTa6/KFqMy44Ryih9DUuM0cpNjVXIC+o46S6xeMgL6VOsnqw06RUpn6rTw==</div>
+<span onclick='Show(this)'><img src='/eval/4/amdr57000mpk.jpg'><div class=t>AMD R7 7700 MPK(代理含風扇)【8核/16緒】3.8G(↑5.3G)65W /具內顯 /代理商三年保</div>
+<div class=x>含稅：NT7190 &nbsp;&diams;<a href='https://www.amd.com/zh-hant/products/apu/amd-ryzen-5-7600' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(25, this)' onclick="Buy('25')">Buy</font></div></span>
+
+<div class=w>W7dmqk+xTa7XIC0zMDBdQU1EIFI3IDc3MDAgTVBLKKVOsnqndK23rrApoWk4rtYvMTa6/KFqMy44Ryih9DUuM0cppfS3ZqVEvveqT7J7rNkzMDA=</div>
+<span onclick='Show(this)'><img src='/eval/4/amdr57000mpk.jpg'><div class=t>[搭板專案 -300]AMD R7 7700 MPK(代理含風扇)【8核/16緒】3.8G(↑5.3G)任搭主機板現省300</div>
+<div class=x>含稅：NT6890 &nbsp;&diams;<a href='https://www.amd.com/zh-hant/products/apu/amd-ryzen-5-7600' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(26, this)' onclick="Buy('26')">Buy</font></div></span>
+
+<div class=w>QU1EIFI3IDc4MDBYM0QgVHJheb1MoWk4rtYvMTa6/KFqNC4yRyih9DUuMEcpOTZNLzEyMFcvqOOkusXjpFSmfqtP</div>
+<span onclick='Show(this)'><img src='/eval/4/amdam5r7x3d.jpg'><div class=t>AMD R7 7800X3D Tray盤【8核/16緒】4.2G(↑5.0G)96M/120W/具內顯三年保</div>
+<div class=x>含稅：NT9990 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(27, this)' onclick="Buy('27')">Buy</font></div></span>
+
+<div class=w>QU1EIFI1IDg0MDBGsrChaTau1i8xMrr8oWo0LjJHKKH0NC43Ryk2NVc=</div>
+<span onclick='Show(this)'><img src='/eval/4/amdr58000.jpg'><div class=t>AMD R5 8400F盒【6核/12緒】4.2G(↑4.7G)65W</div>
+<div class=x>含稅：NT4950 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/desktops/ryzen/8000-series/amd-ryzen-5-8400f.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(28, this)' onclick="Buy('28')">Buy</font></div></span>
+
+<div class=w>QU1EIFI1IDg0MDBGsrChaTau1i8xMrr8oWo0LjJHKKH0NC43Ryk2NVehaaX0t2alRL73qk+hag==</div>
+<span onclick='Show(this)'><img src='/eval/4/amdr58000.jpg'><div class=t>AMD R5 8400F盒【6核/12緒】4.2G(↑4.7G)65W【任搭主機板】</div>
+<div class=x>含稅：NT4450 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/desktops/ryzen/8000-series/amd-ryzen-5-8400f.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(29, this)' onclick="Buy('29')">Buy</font></div></span>
+
+<div class=w>QU1EIFI1IDg1MDBHsrChaTau1i8xMrr8oWozLjVHKKH0NS4wRyk2NVcgL1JETkEgM6S6xeMgL7dzNKlgpsyn3rNOIC+zzKdDNDVX</div>
+<span onclick='Show(this)'><img src='/eval/4/amdr58000.jpg'><div class=t>AMD R5 8500G盒【6核/12緒】3.5G(↑5.0G)65W /RDNA 3內顯 /新4奈米技術 /最低45W</div>
+<div class=x>含稅：NT5090 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/desktops/ryzen/8000-series/amd-ryzen-5-8500g.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(30, this)' onclick="Buy('30')">Buy</font></div></span>
+
+<div class=w>QU1EIFI1IDg2MDBHsrChaTau1i8xMrr8oWo0LjNHKKH0NS4wRyk2NVcgL1JETkEgM6S6xeMgL6S6q9hOUFWk5Kv5QUk=</div>
+<span onclick='Show(this)'><img src='/eval/4/amdr58000.jpg'><div class=t>AMD R5 8600G盒【6核/12緒】4.3G(↑5.0G)65W /RDNA 3內顯 /內建NPU支持AI</div>
+<div class=x>含稅：NT6450 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/desktops/ryzen/8000-series/amd-ryzen-5-8600g.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(31, this)' onclick="Buy('31')">Buy</font></div></span>
+
+<div class=w>QU1EIFI1IDk1MDBGIE1QSyilTrJ6p3Stt66wKaFpNq7WLzEyuvyhajMuOEcoofQ1LjBHKTY1V6X0t2Y=</div>
+<span onclick='Show(this)'><img src='/eval/4/amd9000.jpg'><div class=t>AMD R5 9500F MPK(代理含風扇)【6核/12緒】3.8G(↑5.0G)65W任搭</div>
+<div class=x>含稅：NT6290 &nbsp;&diams;<a href='https://s.shopee.tw/5Ak0QFrSVB' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(32, this)' onclick="Buy('32')">Buy</font></div></span>
+
+<div class=w>QU1EIFI1IDk2MDBYpU6yerKwuMuhaTau1i8xMrr8oWozLjlHKKH0NS40Ryk2NVcgL6jjUkROQaS6xeM=</div>
+<span onclick='Show(this)'><img src='/eval/4/amd9000.jpg'><div class=t>AMD R5 9600X代理盒裝【6核/12緒】3.9G(↑5.4G)65W /具RDNA內顯</div>
+<div class=x>含稅：NT7950 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(33, this)' onclick="Buy('33')">Buy</font></div></span>
+
+<div class=w>W7dmqk+xTa7XIC02MDBdIEFNRCBSNSA5NjAwWKVOsnqysLjLoWk2rtYvMTK6/KFqMy45Ryih9DUuNEcppfS3ZqVEvveqT7J7rNk2MDA=</div>
+<span onclick='Show(this)'><img src='/eval/4/amd9000.jpg'><div class=t>[搭板專案 -600] AMD R5 9600X代理盒裝【6核/12緒】3.9G(↑5.4G)任搭主機板現省600</div>
+<div class=x>含稅：NT7350 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(34, this)' onclick="Buy('34')">Buy</font></div></span>
+
+<div class=w>QU1EIFI3IDk3MDBYpU6yerKwuMuhaTiu1i8xNrr8oWozLjhHKKH0NS41Ryk2NVcgL6jjUkROQaS6xeM=</div>
+<span onclick='Show(this)'><img src='/eval/4/amd9000.jpg'><div class=t>AMD R7 9700X代理盒裝【8核/16緒】3.8G(↑5.5G)65W /具RDNA內顯</div>
+<div class=x>含稅：NT11450 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(35, this)' onclick="Buy('35')">Buy</font></div></span>
+
+<div class=w>W7dmqk+xTa7XIC05MDBdIEFNRCBSNyA5NzAwWKVOsnqysLjLoWk4rtYvMTa6/KFqMy44Ryih9DUuNUcpNjVXL6X0t2alRL73qk+ye6zZOTAw</div>
+<span onclick='Show(this)'><img src='/eval/4/amd9000.jpg'><div class=t>[搭板專案 -900] AMD R7 9700X代理盒裝【8核/16緒】3.8G(↑5.5G)65W/任搭主機板現省900</div>
+<div class=x>含稅：NT10550 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(36, this)' onclick="Buy('36')">Buy</font></div></span>
+
+<div class=w>QU1EIFI3IDk4MDBYM0SlTrJ6srC4y6FpOK7WLzE2uvyhajQuN0coofQ1LjJHKTEyMFcgLzk2TSAvqONSRE5BpLrF4w==</div>
+<span onclick='Show(this)'><img src='/eval/4/amd9800x3d.jpg'><div class=t>AMD R7 9800X3D代理盒裝【8核/16緒】4.7G(↑5.2G)120W /96M /具RDNA內顯</div>
+<div class=x>含稅：NT16150 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(37, this)' onclick="Buy('37')">Buy</font></div></span>
+
+<div class=w>W7dmqk+xTa7XIC03NTBdIEFNRCBSNyA5ODAwWDNEpU6yerKwuMuhaTiu1i8xNrr8oWql9LdmpUS+96pPsnus2Tc1MA==</div>
+<span onclick='Show(this)'><img src='/eval/4/amd9800x3d.jpg'><div class=t>[搭板專案 -750] AMD R7 9800X3D代理盒裝【8核/16緒】任搭主機板現省750</div>
+<div class=x>含稅：NT15400 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(38, this)' onclick="Buy('38')">Buy</font></div></span>
+
+<div class=w>QU1EIFI3IDk4NTBYM0SlTrJ6srC4y6FpOK7WLzE2uvyhajQuN0coofQ1LjZHKTEyMFcvOTZNL6jjpLrF4w==</div>
+<span onclick='Show(this)'><img src='/eval/4/amd9850x3d.jpg'><div class=t>AMD R7 9850X3D代理盒裝【8核/16緒】4.7G(↑5.6G)120W/96M/具內顯</div>
+<div class=x>含稅：NT17050 &nbsp;<font class=buy onmouseover='url(39, this)' onclick="Buy('39')">Buy</font></div></span>
+
+<div class=w>QU1EIFI5IDk5MDBYpU6yerKwuMuhaTEyrtYvMjS6/KFqNC40Ryih9DUuNkcpMTIwVyAvqOOkusXj</div>
+<span onclick='Show(this)'><img src='/eval/4/amd9000.jpg'><div class=t>AMD R9 9900X代理盒裝【12核/24緒】4.4G(↑5.6G)120W /具內顯</div>
+<div class=x>含稅：NT14250 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(40, this)' onclick="Buy('40')">Buy</font></div></span>
+
+<div class=w>QU1EIFI5IDk5MDBYM0SlTrJ6srC4y6FpMTKu1i8yNLr8oWo0LjRHKKH0NS41RykxMjBXIC+o46S6xeM=</div>
+<span onclick='Show(this)'><img src='/eval/4/amd9900x3d.jpg'><div class=t>AMD R9 9900X3D代理盒裝【12核/24緒】4.4G(↑5.5G)120W /具內顯</div>
+<div class=x>含稅：NT20450 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(41, this)' onclick="Buy('41')">Buy</font></div></span>
+
+<div class=w>QU1EIFI5IDk5NTBYpU6yerKwuMuhaTE2rtYvMzK6/KFqNC4zRyih9DUuN0cpMTcwVyAvqOOkusXj</div>
+<span onclick='Show(this)'><img src='/eval/4/amd9000.jpg'><div class=t>AMD R9 9950X代理盒裝【16核/32緒】4.3G(↑5.7G)170W /具內顯</div>
+<div class=x>含稅：NT19950 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(42, this)' onclick="Buy('42')">Buy</font></div></span>
+
+<div class=w>QU1EIFI5IDk5NTBYM0SlTrJ6srC4y6FpMTau1i8zMrr8oWo0LjNHKKH0NS43RykxNzBXIC+o46S6xeM=</div>
+<span onclick='Show(this)'><img src='/eval/4/amd9900x3d.jpg'><div class=t>AMD R9 9950X3D代理盒裝【16核/32緒】4.3G(↑5.7G)170W /具內顯</div>
+<div class=x>含稅：NT23950 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(43, this)' onclick="Buy('43')">Buy</font></div></span>
+
+<div class=w>QU1EIFI5IDk5NTBYM0QyIML5M0QtVi1DYWNoZafes06haTE2rtYvMzK6/KFqNC4zRyih9DUuNkcpMjAwVyAvqOOkusXj</div>
+<span onclick='Show(this)'><img src='/eval/4/amd9900x3d.jpg'><div class=t>AMD R9 9950X3D2 雙3D-V-Cache技術【16核/32緒】4.3G(↑5.6G)200W /具內顯</div>
+<div class=x>含稅：NT31450 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(44, this)' onclick="Buy('44')">Buy</font></div></span>
+
+<div class=w>QU1EIFJ5emVuIFRSIDk5NjBYsrChaTI0rtYvNDi6/KFqNC4yRyih9DUuNEcpMzUwVyAvMTI4TSAvNG5t</div>
+<span onclick='Show(this)'><img src='/eval/4/amdtrx9000.jpg'><div class=t>AMD Ryzen TR 9960X盒【24核/48緒】4.2G(↑5.4G)350W /128M /4nm</div>
+<div class=x>含稅：NT51960 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/ryzen-threadripper/9000-series/amd-ryzen-threadripper-9960x.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(45, this)' onclick="Buy('45')">Buy</font></div></span>
+
+<div class=w>QU1EIFJ5emVuIFRSIDk5NzBYsrChaTMyrtYvNjS6/KFqNC4wRyih9DUuNEcpMzUwVyAvMTI4TSAvNG5t</div>
+<span onclick='Show(this)'><img src='/eval/4/amdtrx9000.jpg'><div class=t>AMD Ryzen TR 9970X盒【32核/64緒】4.0G(↑5.4G)350W /128M /4nm</div>
+<div class=x>含稅：NT86550 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/ryzen-threadripper/9000-series/amd-ryzen-threadripper-9970x.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(46, this)' onclick="Buy('46')">Buy</font></div></span>
+
+<div class=w>QU1EIFJ5emVuIFRSIDk5ODBYsrChaTY0rtYvMTI4uvyhajMuMkcoofQ1LjRHKTM1MFcgLzI1Nk0gLzRubQ==</div>
+<span onclick='Show(this)'><img src='/eval/4/amdtrx9000.jpg'><div class=t>AMD Ryzen TR 9980X盒【64核/128緒】3.2G(↑5.4G)350W /256M /4nm</div>
+<div class=x>含稅：NT173550 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/ryzen-threadripper/9000-series/amd-ryzen-threadripper-9980x.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(47, this)' onclick="Buy('47')">Buy</font></div></span>
+
+<div class=w>QU1EIFJ5emVuIFRSIFBSTyA5OTU1V1iysKFpMTau1i8zMrr8oWo0LjVHKKH0NS40RykzNTBXIC82NE0gLzRubQ==</div>
+<span onclick='Show(this)'><img src='/eval/4/amdwrx9000.jpg'><div class=t>AMD Ryzen TR PRO 9955WX盒【16核/32緒】4.5G(↑5.4G)350W /64M /4nm</div>
+<div class=x>含稅：NT56750 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/workstations/ryzen-threadripper/9000-wx-series/amd-ryzen-threadripper-pro-9955wx.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(48, this)' onclick="Buy('48')">Buy</font></div></span>
+
+<div class=w>QU1EIFJ5emVuIFRSIFBSTyA5OTY1V1iysKFpMjSu1i80OLr8oWo0LjJHKKH0NS40RykzNTBXIC8xMjhNIC80bm0=</div>
+<span onclick='Show(this)'><img src='/eval/4/amdwrx9000.jpg'><div class=t>AMD Ryzen TR PRO 9965WX盒【24核/48緒】4.2G(↑5.4G)350W /128M /4nm</div>
+<div class=x>含稅：NT99950 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/products/processors/workstations/ryzen-threadripper/9000-wx-series/amd-ryzen-threadripper-pro-9965wx.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(49, this)' onclick="Buy('49')">Buy</font></div></span>
+
+<div class=w>QU1EIFJ5emVuIFRSIFBSTyA5OTc1V1iysKFpMzKu1i82NLr8oWo0LjBHKKH0NS40RykzNTBXIC8xMjhNIC80bm0=</div>
+<span onclick='Show(this)'><img src='/eval/4/amdwrx9000.jpg'><div class=t>AMD Ryzen TR PRO 9975WX盒【32核/64緒】4.0G(↑5.4G)350W /128M /4nm</div>
+<div class=x>含稅：NT143250 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/search/site-search.html#q=9975WX' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(50, this)' onclick="Buy('50')">Buy</font></div></span>
+
+<div class=w>QU1EIFJ5emVuIFRSIFBSTyA5OTg1V1iysKFpNjSu1i8xMji6/KFqMy4yRyih9DUuNEcpMzUwVyAvMjU2TSAvNG5t</div>
+<span onclick='Show(this)'><img src='/eval/4/amdwrx9000.jpg'><div class=t>AMD Ryzen TR PRO 9985WX盒【64核/128緒】3.2G(↑5.4G)350W /256M /4nm</div>
+<div class=x>含稅：NT276850 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/search/site-search.html#q=9985wx' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(51, this)' onclick="Buy('51')">Buy</font></div></span>
+
+<div class=w>QU1EIFJ5emVuIFRSIFBSTyA5OTk1V1iysKFpOTau1i8xOTK6/KFqMi41Ryih9DUuNEcpMzUwVyAvMzg0TSAvNG5t</div>
+<span onclick='Show(this)'><img src='/eval/4/amdwrx9000.jpg'><div class=t>AMD Ryzen TR PRO 9995WX盒【96核/192緒】2.5G(↑5.4G)350W /384M /4nm</div>
+<div class=x>含稅：NT401950 &nbsp;&diams;<a href='https://www.amd.com/zh-tw/search/site-search.html#q=9985wx' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(52, this)' onclick="Buy('52')">Buy</font></div></span>
+</div>
+<form name=F action='/evaluate.php'><input type=hidden name=iBuy></form>
+</body></html>

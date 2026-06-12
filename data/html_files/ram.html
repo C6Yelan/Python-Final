@@ -1,0 +1,1095 @@
+<html>
+<head>
+<title>原價屋記憶體RAM總覽</title>
+<style>
+b{padding-left:5px;color:blue}
+body{overflow:auto}
+.g{color:#888}
+.On{hidden;background-color:gold}
+.main *{font:8pt "Arial"}
+.main span{display:inline-block;width:350px;height:260px;float:left;margin:11px;border:1px solid #ccc;box-shadow:8px 8px 4px grey;border-radius:7px;}
+.main span img{width:140px;height:252px;float:left;margin:4px;}
+.main span:hover{border:1px solid #666;}
+.t{font-size:9pt;color:#630;margin:6px 0px}
+.x, .x *{font-size:9pt;margin:4px 0px 2px 0}
+.w{display:none}
+#show *{font:15pt "Arial"}
+#show{position:fixed;top:50%;left:50%;margin-left:-300px;margin-top:-275px;width:600px;height:550px;padding:5px;background-color:#fff;border:1px solid #666;;border-radius:13px}
+#show img{width:300px;height:540px;float:left;}
+.buy{color:white;background-color:orange;cursor:pointer;padding:1px 6px 1px 6px;border-radius:7px}
+</style>
+<script>
+var Obj, Protocol = ('https:' == document.location.protocol) ? 'https://' : 'http://'
+
+function Show(a){
+var E=document.getElementById("show")
+if (Obj) Obj.className=""
+a.className="On"
+E.innerHTML=a.innerHTML
+E.style.display=""
+Obj=a
+}
+function Buy(a){
+if (prompt("可以複製下列的URL",Protocol+"www.coolpc.com.tw/evaluate.php?iBuy="+Item[a].textContent)){
+ F.iBuy.value=Item[a].textContent
+ F.submit()}
+}
+function url(a, b){
+b.title="前往\u2192 "+Protocol+"www.coolpc.com.tw/evaluate.php?iBuy="+Item[a].textContent
+}
+</script>
+</head>
+<body onload="Item=document.getElementsByClassName('w')">
+<div id=show onclick="this.style.display='none'" style="display:none"></div>
+<div class=main>
+
+<div class=w>VU1BWCCz5rH4MTZHQiBERFI1LTQ4MDAvQ0w0MA==</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxddr5.jpg'><div class=t>UMAX 單條16GB DDR5-4800/CL40</div>
+<div class=x>含稅：NT5799 &nbsp;&diams;<a href='http://www.umax.com.tw/cwebsite/default.asp' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(0, this)' onclick="Buy('0')">Buy</font></div></span>
+
+<div class=w>VU1BWCCz5rH4MzJHQiBERFI1LTQ4MDAvQ0w0MA==</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxddr5.jpg'><div class=t>UMAX 單條32GB DDR5-4800/CL40</div>
+<div class=x>含稅：NT10500 &nbsp;&diams;<a href='http://www.umax.com.tw/cwebsite/default.asp' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(1, this)' onclick="Buy('1')">Buy</font></div></span>
+
+<div class=w>VU1BWCCz5rH4OEdCIEREUjUtNTYwMC9DTDQ2</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxddr5xmp.jpg'><div class=t>UMAX 單條8GB DDR5-5600/CL46</div>
+<div class=x>含稅：NT3250 &nbsp;&diams;<a href='http://www.umax.com.tw/cwebsite/default.asp' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(2, this)' onclick="Buy('2')">Buy</font></div></span>
+
+<div class=w>VU1BWCCz5rH4MTZHQiBERFI1LTU2MDAvQ0w0Ng==</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxddr5xmp.jpg'><div class=t>UMAX 單條16GB DDR5-5600/CL46</div>
+<div class=x>含稅：NT5950 &nbsp;&diams;<a href='http://www.umax.com.tw/cwebsite/default.asp' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(3, this)' onclick="Buy('3')">Buy</font></div></span>
+
+<div class=w>VU1BWCCz5rH4MzJHQiBERFI1LTU2MDAvQ0w0Ng==</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxddr5xmp.jpg'><div class=t>UMAX 單條32GB DDR5-5600/CL46</div>
+<div class=x>含稅：NT11900 &nbsp;&diams;<a href='http://www.umax.com.tw/cwebsite/default.asp' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(4, this)' onclick="Buy('4')">Buy</font></div></span>
+
+<div class=w>q8Kt6CCz5rH4OEdCIEREUjUtNTYwMC9DTDQ2IChBRDVVNTYwMDhHLVMp</div>
+<span onclick='Show(this)'><img src='/eval/6/adatad5.jpg'><div class=t>威剛 單條8GB DDR5-5600/CL46 (AD5U56008G-S)</div>
+<div class=x>含稅：NT3799 &nbsp;&diams;<a href='https://www.adata.com/tw/consumer/category/computer-memory/dram-module-ddr5-4800-u-dimm/?tab=description' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(5, this)' onclick="Buy('5')">Buy</font></div></span>
+
+<div class=w>q8Kt6CCz5rH4MTZHQiBERFI1LTQwMDAvQ0wzMiAoQUQ1VTQwMDAxNkctUyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/adatad5.jpg'><div class=t>威剛 單條16GB DDR5-4000/CL32 (AD5U400016G-S)</div>
+<div class=x>含稅：NT4999 &nbsp;&diams;<a href='https://www.adata.com/tw/consumer/category/computer-memory/dram-module-ddr5-4800-u-dimm/?tab=description' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(6, this)' onclick="Buy('6')">Buy</font></div></span>
+
+<div class=w>q8Kt6CCz5rH4MTZHQiBERFI1LTU2MDAvQ0w0NiAoQUQ1VTU2MDAxNkctUyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/adatad5.jpg'><div class=t>威剛 單條16GB DDR5-5600/CL46 (AD5U560016G-S)</div>
+<div class=x>含稅：NT6299 &nbsp;&diams;<a href='https://www.adata.com/tw/consumer/category/computer-memory/dram-module-ddr5-4800-u-dimm/?tab=description' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(7, this)' onclick="Buy('7')">Buy</font></div></span>
+
+<div class=w>q8Kt6CCz5rH4MTZHQiBERFI1LTU2MDAvQ0w0NiBMYW5jZXJCbGFkZbhHILbCKEFYNVU1NjAwQzQ2MTZHLVNMQUJCSyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladed5s.jpg'><div class=t>威剛 單條16GB DDR5-5600/CL46 LancerBlade矮 黑(AX5U5600C4616G-SLABBK)</div>
+<div class=x>含稅：NT6399 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(8, this)' onclick="Buy('8')">Buy</font></div></span>
+
+<div class=w>q8Kt6CCz5rH4MTZHQiBERFI1LTYwMDAvQ0w0OCBMYW5jZXJCbGFkZbhHILbCKEFYNVU2MDAwQzQ4MTZHLVNMQUJCSyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladed5s.jpg'><div class=t>威剛 單條16GB DDR5-6000/CL48 LancerBlade矮 黑(AX5U6000C4816G-SLABBK)</div>
+<div class=x>含稅：NT6499 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(9, this)' onclick="Buy('9')">Buy</font></div></span>
+
+<div class=w>q8Kt6CCz5rH4MzJHQiBERFI1LTU2MDAvQ0w0NiAoQUQ1VTU2MDAzMkctUyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/adatad5.jpg'><div class=t>威剛 單條32GB DDR5-5600/CL46 (AD5U560032G-S)</div>
+<div class=x>含稅：NT12599 &nbsp;&diams;<a href='https://www.adata.com/tw/consumer/category/computer-memory/dram-module-ddr5-4800-u-dimm/?tab=description' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(10, this)' onclick="Buy('10')">Buy</font></div></span>
+
+<div class=w>qvekaLl5ILPmsfgxNkdCIEREUjUtNTYwMC9DTDQ2</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstonddr5.jpg'><div class=t>金士頓 單條16GB DDR5-5600/CL46</div>
+<div class=x>含稅：NT7150 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/search?partid=KVR56U46BS8-16' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(11, this)' onclick="Buy('11')">Buy</font></div></span>
+
+<div class=w>qvekaLl5ILPmsfgxNkdCIEREUjUtNTYwMC9DTDQ2frdmvve7+X4=</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstonddr5.jpg'><div class=t>金士頓 單條16GB DDR5-5600/CL46~搭機價~</div>
+<div class=x>含稅：NT6500 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/search?partid=KVR56U46BS8-16' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(12, this)' onclick="Buy('12')">Buy</font></div></span>
+
+<div class=w>qvekaLl5ILPmsfgzMkdCIEREUjUtNTYwMC9DTDQ2</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstonddr5.jpg'><div class=t>金士頓 單條32GB DDR5-5600/CL46</div>
+<div class=x>含稅：NT14800 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/search?partid=KVR56U46BD8-32' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(13, this)' onclick="Buy('13')">Buy</font></div></span>
+
+<div class=w>qvekaLl5ILPmsfg4R0IgRERSNS01NjAwKENMMzYpIEZVUlkgQmVhc3QgKMN+wnmqzCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5fury.jpg'><div class=t>金士頓 單條8GB DDR5-5600(CL36) FURY Beast (獸獵者)</div>
+<div class=x>含稅：NT4300 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-memory?speed=5600mt%2Fs&total%20(kit)%20capacity=16gb&kit=single%20module&dram%20density=16gbit&profile%20type=amd%20expo&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(14, this)' onclick="Buy('14')">Buy</font></div></span>
+
+<div class=w>qvekaLl5ILPmsfgxNkdCIEREUjUtNTYwMChDTDM2KSBGVVJZIEJlYXN0ICjDfsJ5qswp</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5fury.jpg'><div class=t>金士頓 單條16GB DDR5-5600(CL36) FURY Beast (獸獵者)</div>
+<div class=x>含稅：NT7300 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-memory?speed=5600mt%2Fs&total%20(kit)%20capacity=16gb&kit=single%20module&dram%20density=16gbit&profile%20type=amd%20expo&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(15, this)' onclick="Buy('15')">Buy</font></div></span>
+
+<div class=w>qvekaLl5ILPmsfgxNkdCIEREUjUtNTYwMChDTDM2KSBGVVJZIEJlYXN0ICjDfsJ5qswpfrdmvve7+X4=</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5fury.jpg'><div class=t>金士頓 單條16GB DDR5-5600(CL36) FURY Beast (獸獵者)~搭機價~</div>
+<div class=x>含稅：NT6600 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-memory?speed=5600mt%2Fs&total%20(kit)%20capacity=16gb&kit=single%20module&dram%20density=16gbit&profile%20type=amd%20expo&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(16, this)' onclick="Buy('16')">Buy</font></div></span>
+
+<div class=w>qvekaLl5ILPmsfgxNkdCIEREUjUtNjAwMChDTDMwKSBGVVJZIEJlYXN0IEJsYWNrICjDfsJ5qswp</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5fury.jpg'><div class=t>金士頓 單條16GB DDR5-6000(CL30) FURY Beast Black (獸獵者)</div>
+<div class=x>含稅：NT7300 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-memory?speed=6000mt%2Fs&total%20(kit)%20capacity=16gb&kit=single%20module&dram%20density=16gbit&profile%20type=amd%20expo&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(17, this)' onclick="Buy('17')">Buy</font></div></span>
+
+<div class=w>S0xFVlYorOy94Skgs+ax+DE2R0IgRERSNS01NjAwL0NMNDY=</div>
+<span onclick='Show(this)'><img src='/eval/6/klevvddr5.jpg'><div class=t>KLEVV(科賦) 單條16GB DDR5-5600/CL46</div>
+<div class=x>含稅：NT6250 &nbsp;&diams;<a href='https://www.klevv.com/ktw/products_details/memory/Klevv_U_DIMM' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(18, this)' onclick="Buy('18')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCCz5rH4MTZHQiBERFI1IDU2MDAvQ0w0NiAoreylzcH7sskp</div>
+<span onclick='Show(this)'><img src='/eval/6/micronddr5.jpg'><div class=t>美光 Micron Crucial 單條16GB DDR5 5600/CL46 (原生顆粒)</div>
+<div class=x>含稅：NT6399 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/CT16G56C46U5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(19, this)' onclick="Buy('19')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCCz5rH4MzJHQiBERFI1IDU2MDAvQ0w0NiAoreylzcH7sskp</div>
+<span onclick='Show(this)'><img src='/eval/6/micronddr5.jpg'><div class=t>美光 Micron Crucial 單條32GB DDR5 5600/CL46 (原生顆粒)</div>
+<div class=x>含稅：NT11999 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/CT32G56C46U5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(20, this)' onclick="Buy('20')">Buy</font></div></span>
+
+<div class=w>VU1BWCA2NEdCKML5s3EzMkdCKjIpIEREUjUgNDgwMC9DTDQwIKd0tLK89qT5</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxddr5x2.jpg'><div class=t>UMAX 64GB(雙通32GB*2) DDR5 4800/CL40 含散熱片</div>
+<div class=x>含稅：NT21000 &nbsp;&diams;<a href='http://www.umax.com.tw/cwebsite/default.asp' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(21, this)' onclick="Buy('21')">Buy</font></div></span>
+
+<div class=w>VU1BWCAxNkdCKML5s3E4R0IqMikgRERSNSA1NjAwL0NMNDYgp3S0srz2pPk=</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxddr5x2xmp.jpg'><div class=t>UMAX 16GB(雙通8GB*2) DDR5 5600/CL46 含散熱片</div>
+<div class=x>含稅：NT6500 &nbsp;&diams;<a href='http://www.umax.com.tw/cwebsite/default.asp' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(22, this)' onclick="Buy('22')">Buy</font></div></span>
+
+<div class=w>VU1BWCAzMkdCKML5s3ExNkdCKjIpIEREUjUgNTYwMC9DTDQ2IKd0tLK89qT5</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxddr5x2xmp.jpg'><div class=t>UMAX 32GB(雙通16GB*2) DDR5 5600/CL46 含散熱片</div>
+<div class=x>含稅：NT11800 &nbsp;&diams;<a href='http://www.umax.com.tw/cwebsite/default.asp' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(23, this)' onclick="Buy('23')">Buy</font></div></span>
+
+<div class=w>VU1BWCA2NEdCKML5s3EzMkdCKjIpIEREUjUgNTYwMC9DTDQ2IKd0tLK89qT5</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxddr5x2xmp.jpg'><div class=t>UMAX 64GB(雙通32GB*2) DDR5 5600/CL46 含散熱片</div>
+<div class=x>含稅：NT22500 &nbsp;&diams;<a href='http://www.umax.com.tw/cwebsite/default.asp' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(24, this)' onclick="Buy('24')">Buy</font></div></span>
+
+<div class=w>VU1BWCA2NEdCKML5s3EzMkdCKjIpIEREUjUgNjAwMC9DTDMwIKd0tLK89qT5</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxddr5x2xmp.jpg'><div class=t>UMAX 64GB(雙通32GB*2) DDR5 6000/CL30 含散熱片</div>
+<div class=x>含稅：NT23800 &nbsp;&diams;<a href='http://www.umax.com.tw/cwebsite/default.asp' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(25, this)' onclick="Buy('25')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTU2MDAvQ0w0NiBMYW5jZXJCbGFkZbhHILbCKEFYNVU1NjAwQzQ2MTZHLURUTEFCQksp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladed5x2.jpg'><div class=t>威剛 32G(雙通16G*2)D5-5600/CL46 LancerBlade矮 黑(AX5U5600C4616G-DTLABBK)</div>
+<div class=x>含稅：NT12799 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(26, this)' onclick="Buy('26')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTU2MDAvQ0w0NiBMYW5jZXJCbGFkZbhHIKXVKEFYNVU1NjAwQzQ2MTZHLURUTEFCV0gp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladed5x2w.jpg'><div class=t>威剛 32G(雙通16G*2)D5-5600/CL46 LancerBlade矮 白(AX5U5600C4616G-DTLABWH)</div>
+<div class=x>含稅：NT12799 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(27, this)' onclick="Buy('27')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0w0OCBMYW5jZXJCbGFkZbhHILbCKEFYNVU2MDAwQzQ4MTZHLURUTEFCQksp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladed5x2.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL48 LancerBlade矮 黑(AX5U6000C4816G-DTLABBK)</div>
+<div class=x>含稅：NT12999 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(28, this)' onclick="Buy('28')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0w0OCBMYW5jZXJCbGFkZbhHIKXVKEFYNVU2MDAwQzQ4MTZHLURUTEFCV0gp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladed5x2w.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL48 LancerBlade矮 白(AX5U6000C4816G-DTLABWH)</div>
+<div class=x>含稅：NT12999 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(29, this)' onclick="Buy('29')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wzNiBMYW5jZXJCbGFkZbhHILbCKEFYNVU2MDAwQzM2MTZHLURUTEFCQksp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladed5x2.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮 黑(AX5U6000C3616G-DTLABBK)</div>
+<div class=x>含稅：NT13199 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(30, this)' onclick="Buy('30')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wzNiBMYW5jZXJCbGFkZbhHIKXVKEFYNVU2MDAwQzM2MTZHLURUTEFCV0gp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladed5x2w.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮 白(AX5U6000C3616G-DTLABWH)</div>
+<div class=x>含稅：NT13199 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(31, this)' onclick="Buy('31')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wzMCBMYW5jZXJCbGFkZbhHILbCKEFYNVU2MDAwQzMwMTZHLURUTEFCQksp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladed5x2.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL30 LancerBlade矮 黑(AX5U6000C3016G-DTLABBK)</div>
+<div class=x>含稅：NT13399 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(32, this)' onclick="Buy('32')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wzMCBMYW5jZXJCbGFkZbhHIKXVKEFYNVU2MDAwQzMwMTZHLURUTEFCV0gp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladed5x2w.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL30 LancerBlade矮 白(AX5U6000C3016G-DTLABWH)</div>
+<div class=x>含稅：NT13399 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(33, this)' onclick="Buy('33')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wyOCBMYW5jZXJCbGFkZbhHILbCKEFYNVU2MDAwQzI4MTZHLURUTEFCQksp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladed5x2.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL28 LancerBlade矮 黑(AX5U6000C2816G-DTLABBK)</div>
+<div class=x>含稅：NT13799 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(34, this)' onclick="Buy('34')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wyOCBMYW5jZXJCbGFkZbhHIKXVKEFYNVU2MDAwQzI4MTZHLURUTEFCV0gp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladed5x2w.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL28 LancerBlade矮 白(AX5U6000C2816G-DTLABWH)</div>
+<div class=x>含稅：NT13799 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(35, this)' onclick="Buy('35')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wzNiBMYW5jZXJCbGFkZbhHUkdCtsIoQVg1VTYwMDBDMzYxNkctRFRMQUJSQksp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladergb.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮RGB黑(AX5U6000C3616G-DTLABRBK)</div>
+<div class=x>含稅：NT13399 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-rgb-ddr4' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(36, this)' onclick="Buy('36')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wzNiBMYW5jZXJCbGFkZbhHUkdCpdUoQVg1VTYwMDBDMzYxNkctRFRMQUJSV0gp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladergbw.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL36 LancerBlade矮RGB白(AX5U6000C3616G-DTLABRWH)</div>
+<div class=x>含稅：NT13399 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-rgb-ddr5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(37, this)' onclick="Buy('37')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wzMCBMYW5jZXJCbGFkZbhHUkdCtsIoQVg1VTYwMDBDMzAxNkctRFRMQUJSQksp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladergb.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL30 LancerBlade矮RGB黑(AX5U6000C3016G-DTLABRBK)</div>
+<div class=x>含稅：NT13599 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(38, this)' onclick="Buy('38')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wzMCBMYW5jZXJCbGFkZbhHUkdCpdUoQVg1VTYwMDBDMzAxNkctRFRMQUJSV0gp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladergbw.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL30 LancerBlade矮RGB白(AX5U6000C3016G-DTLABRWH)</div>
+<div class=x>含稅：NT13599 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(39, this)' onclick="Buy('39')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wyOCBMYW5jZXJCbGFkZbhHUkdCtsIoQVg1VTYwMDBDMjgxNkctRFRMQUJSQksp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladergb.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL28 LancerBlade矮RGB黑(AX5U6000C2816G-DTLABRBK)</div>
+<div class=x>含稅：NT13999 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(40, this)' onclick="Buy('40')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wyOCBMYW5jZXJCbGFkZbhHUkdCpdUoQVg1VTYwMDBDMjgxNkctRFRMQUJSV0gp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladergbw.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL28 LancerBlade矮RGB白(AX5U6000C2816G-DTLABRWH)</div>
+<div class=x>含稅：NT13999 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(41, this)' onclick="Buy('41')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTU2MDAvQ0wzNiBMYW5jZXK2wihBWDVVNTYwMEMzNjE2Ry1EQ0xBQksp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerd5x2b.jpg'><div class=t>威剛 32G(雙通16G*2)D5-5600/CL36 Lancer黑(AX5U5600C3616G-DCLABK)</div>
+<div class=x>含稅：NT12800 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-ddr5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(42, this)' onclick="Buy('42')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wzMCBMYW5jZXK2wihBWDVVNjAwMEMzMDE2Ry1EQ0xBQksp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerd5x2b.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL30 Lancer黑(AX5U6000C3016G-DCLABK)</div>
+<div class=x>含稅：NT13599 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-ddr5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(43, this)' onclick="Buy('43')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wzMCBMYW5jZXKl1ShBWDVVNjAwMEMzMDE2Ry1EQ0xBV0gp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerd5x2w.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL30 Lancer白(AX5U6000C3016G-DCLAWH)</div>
+<div class=x>含稅：NT13599 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-ddr5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(44, this)' onclick="Buy('44')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wzMCBMYW5jZXIgUkdCtsIoQVg1VTYwMDBDMzAxNkctRENMQVJCSyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerd5rgb.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL30 Lancer RGB黑(AX5U6000C3016G-DCLARBK)</div>
+<div class=x>含稅：NT13999 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/DRAM-modules-LANCER-RGB-DDR5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(45, this)' onclick="Buy('45')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wzMCBMYW5jZXIgUkdCpdUoQVg1VTYwMDBDMzAxNkctRENMQVJXSCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerrgbw.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL30 Lancer RGB白(AX5U6000C3016G-DCLARWH)</div>
+<div class=x>含稅：NT13999 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/DRAM-modules-LANCER-RGB-DDR5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(46, this)' onclick="Buy('46')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wyOCBMYW5jZXIgUkdCtsIoQVg1VTYwMDBDMjgxNkctRENMQVJCSyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerd5rgb.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL28 Lancer RGB黑(AX5U6000C2816G-DCLARBK)</div>
+<div class=x>含稅：NT14199 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/DRAM-modules-LANCER-RGB-DDR5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(47, this)' onclick="Buy('47')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTYwMDAvQ0wyOCBMYW5jZXIgUkdCpdUoQVg1VTYwMDBDMjgxNkctRENMQVJXSCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerrgbw.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6000/CL28 Lancer RGB白(AX5U6000C2816G-DCLARWH)</div>
+<div class=x>含稅：NT14199 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/DRAM-modules-LANCER-RGB-DDR5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(48, this)' onclick="Buy('48')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTY0MDAvQ0wzMiBMYW5jZXJCbGFkZbhHILbCKEFYNVU2NDAwQzMyMTZHLURUTEFCQksp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladed5x2.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6400/CL32 LancerBlade矮 黑(AX5U6400C3216G-DTLABBK)</div>
+<div class=x>含稅：NT13999 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(49, this)' onclick="Buy('49')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkcowvmzcTE2RyoyKUQ1LTY0MDAvQ0wzMiBMYW5jZXIgUkdCtsIoQVg1VTY0MDBDMzIxNkctRENMQVJCSyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerrgb.jpg'><div class=t>威剛 32G(雙通16G*2)D5-6400/CL32 Lancer RGB黑(AX5U6400C3216G-DCLARBK)</div>
+<div class=x>含稅：NT14199 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/DRAM-modules-LANCER-RGB-DDR5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(50, this)' onclick="Buy('50')">Buy</font></div></span>
+
+<div class=w>q8Kt6CA2NEcowvmzcTMyRyoyKUQ1LTU2MDAvQ0w0NiBMYW5jZXJCbGFkZbhHILbCKEFYNVU1NjAwQzQ2MzJHLURUTEFCQksp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladed5x2.jpg'><div class=t>威剛 64G(雙通32G*2)D5-5600/CL46 LancerBlade矮 黑(AX5U5600C4632G-DTLABBK)</div>
+<div class=x>含稅：NT25599 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(51, this)' onclick="Buy('51')">Buy</font></div></span>
+
+<div class=w>q8Kt6CA2NEcowvmzcTMyRyoyKUQ1LTYwMDAvQ0wzMCBMYW5jZXJCbGFkZbhHILbCKEFYNVU2MDAwQzMwMzJHLURUTEFCQksp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladed5x2.jpg'><div class=t>威剛 64G(雙通32G*2)D5-6000/CL30 LancerBlade矮 黑(AX5U6000C3032G-DTLABBK)</div>
+<div class=x>含稅：NT26799 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(52, this)' onclick="Buy('52')">Buy</font></div></span>
+
+<div class=w>q8Kt6CA2NEcowvmzcTMyRyoyKUQ1LTYwMDAvQ0wzMCBMYW5jZXJCbGFkZbhHIKXVKEFYNVU2MDAwQzMwMzJHLURUTEFCV0gp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladed5x2w.jpg'><div class=t>威剛 64G(雙通32G*2)D5-6000/CL30 LancerBlade矮 白(AX5U6000C3032G-DTLABWH)</div>
+<div class=x>含稅：NT26799 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(53, this)' onclick="Buy('53')">Buy</font></div></span>
+
+<div class=w>q8Kt6CA2NEcowvmzcTMyRyoyKUQ1LTYwMDAvQ0wzMCBMYW5jZXJCbGFkZbhHUkdCtsIoQVg1VTYwMDBDMzAzMkctRFRMQUJSQksp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladergb.jpg'><div class=t>威剛 64G(雙通32G*2)D5-6000/CL30 LancerBlade矮RGB黑(AX5U6000C3032G-DTLABRBK)</div>
+<div class=x>含稅：NT27198 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(54, this)' onclick="Buy('54')">Buy</font></div></span>
+
+<div class=w>q8Kt6CA2NEcowvmzcTMyRyoyKUQ1LTYwMDAvQ0wzMCBMYW5jZXJCbGFkZbhHUkdCpdUoQVg1VTYwMDBDMzAzMkctRFRMQUJSV0gp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerbladergbw.jpg'><div class=t>威剛 64G(雙通32G*2)D5-6000/CL30 LancerBlade矮RGB白(AX5U6000C3032G-DTLABRWH)</div>
+<div class=x>含稅：NT27198 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-blade-ddr5?tab=desc' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(55, this)' onclick="Buy('55')">Buy</font></div></span>
+
+<div class=w>q8Kt6CA2NEcowvmzcTMyRyoyKUQ1LTYwMDAvQ0wzMCBMYW5jZXK2wihBWDVVNjAwMEMzMDMyRy1EQ0xBQksp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerd5x2b.jpg'><div class=t>威剛 64G(雙通32G*2)D5-6000/CL30 Lancer黑(AX5U6000C3032G-DCLABK)</div>
+<div class=x>含稅：NT27599 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-ddr5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(56, this)' onclick="Buy('56')">Buy</font></div></span>
+
+<div class=w>q8Kt6CA2NEcowvmzcTMyRyoyKUQ1LTYwMDAvQ0wzMCBMYW5jZXKl1ShBWDVVNjAwMEMzMDMyRy1EQ0xBV0gp</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerd5x2w.jpg'><div class=t>威剛 64G(雙通32G*2)D5-6000/CL30 Lancer白(AX5U6000C3032G-DCLAWH)</div>
+<div class=x>含稅：NT27599 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/dram-modules-lancer-ddr5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(57, this)' onclick="Buy('57')">Buy</font></div></span>
+
+<div class=w>q8Kt6CA2NEcowvmzcTMyRyoyKUQ1LTU2MDAvQ0wzNiBMYW5jZXIgUkdCpdUoQVg1VTU2MDBDMzYzMkctRENMQVJXSCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerrgbw.jpg'><div class=t>威剛 64G(雙通32G*2)D5-5600/CL36 Lancer RGB白(AX5U5600C3632G-DCLARWH)</div>
+<div class=x>含稅：NT27399 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/DRAM-modules-LANCER-RGB-DDR5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(58, this)' onclick="Buy('58')">Buy</font></div></span>
+
+<div class=w>q8Kt6CA2NEcowvmzcTMyRyoyKUQ1LTYwMDAvQ0wzMCBMYW5jZXIgUkdCtsIoQVg1VTYwMDBDMzAzMkctRENMQVJCSyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerd5rgb.jpg'><div class=t>威剛 64G(雙通32G*2)D5-6000/CL30 Lancer RGB黑(AX5U6000C3032G-DCLARBK)</div>
+<div class=x>含稅：NT27999 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/DRAM-modules-LANCER-RGB-DDR5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(59, this)' onclick="Buy('59')">Buy</font></div></span>
+
+<div class=w>q8Kt6CA2NEcowvmzcTMyRyoyKUQ1LTYwMDAvQ0wzMCBMYW5jZXIgUkdCpdUoQVg1VTYwMDBDMzAzMkctRENMQVJXSCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/xpglancerd5x2.jpg'><div class=t>威剛 64G(雙通32G*2)D5-6000/CL30 Lancer RGB白(AX5U6000C3032G-DCLARWH)</div>
+<div class=x>含稅：NT27999 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/DRAM-modules-LANCER-RGB-DDR5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(60, this)' onclick="Buy('60')">Buy</font></div></span>
+
+<div class=w>Qml3aW4gqNW6+yBCbGFjayBPcGFsIEhYMTAwIDQ4R0IowvmzcTI0R0J4MikgRERSNS02MDAwIENMMjggtsI=</div>
+<span onclick='Show(this)'><img src='/eval/6/biwinhx100.jpg'><div class=t>Biwin 佰維 Black Opal HX100 48GB(雙通24GBx2) DDR5-6000 CL28 黑</div>
+<div class=x>含稅：NT15999 &nbsp;&diams;<a href='https://tw.biwintech.com/product/black-opal-hx100-ddr5-heatsink-memory/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(61, this)' onclick="Buy('61')">Buy</font></div></span>
+
+<div class=w>Qml3aW4gqNW6+yBCbGFjayBPcGFsIERXMTAwIFJHQiA0OEdCKML5s3EyNEdCeDIpIEREUjUtNjAwMCBDTDI4ILbC</div>
+<span onclick='Show(this)'><img src='/eval/6/biwindw100rgb.jpg'><div class=t>Biwin 佰維 Black Opal DW100 RGB 48GB(雙通24GBx2) DDR5-6000 CL28 黑</div>
+<div class=x>含稅：NT16599 &nbsp;&diams;<a href='https://tw.biwintech.com/product/black-opal-dw100-ddr5-rgb-memory/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(62, this)' onclick="Buy('62')">Buy</font></div></span>
+
+<div class=w>Qml3aW4gqNW6+yBCbGFjayBPcGFsIERXMTAwIFJHQiA0OEdCKML5s3EyNEdCeDIpIEREUjUtNjAwMCBDTDI4IKXV</div>
+<span onclick='Show(this)'><img src='/eval/6/biwindw100rgbw.jpg'><div class=t>Biwin 佰維 Black Opal DW100 RGB 48GB(雙通24GBx2) DDR5-6000 CL28 白</div>
+<div class=x>含稅：NT16599 &nbsp;&diams;<a href='https://tw.biwintech.com/product/black-opal-dw100-ddr5-rgb-memory/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(63, this)' onclick="Buy('63')">Buy</font></div></span>
+
+<div class=w>T3JpZ2luIGNvZGUgVm9ydGV4IFJHQiAzMkdCKML5s3ExNkdCeDIpIEREUjUtNjIwMChDTDI2KbvIKL9Xpd+tt66wKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/origincodevortex.jpg'><div class=t>Origin code Vortex RGB 32GB(雙通16GBx2) DDR5-6200(CL26)銀(獨立風扇)</div>
+<div class=x>含稅：NT18690 &nbsp;&diams;<a href='https://www.coolpc.tw/tw/shop/dram/biwin-origin-code-vortex-ddr5-rgb/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(64, this)' onclick="Buy('64')">Buy</font></div></span>
+
+<div class=w>T3JpZ2luIGNvZGUgVm9ydGV4IFJHQiA0OEdCKML5s3EyNEdCeDIpIEREUjUtNjAwMChDTDI2KbvIKL9Xpd+tt66wKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/origincodevortex.jpg'><div class=t>Origin code Vortex RGB 48GB(雙通24GBx2) DDR5-6000(CL26)銀(獨立風扇)</div>
+<div class=x>含稅：NT20990 &nbsp;&diams;<a href='https://www.coolpc.tw/tw/shop/dram/biwin-origin-code-vortex-ddr5-rgb/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(65, this)' onclick="Buy('65')">Buy</font></div></span>
+
+<div class=w>p7v51iBBY2VyIFByZWRhdG9yIFZlc3RhIElJIFJHQiAzMkdCKML5s3ExNkdCKjIpRERSNSA2MDAwtsIvQ0wzNg==</div>
+<span onclick='Show(this)'><img src='/eval/6/acervestaiid5x2.jpg'><div class=t>宏碁 Acer Predator Vesta II RGB 32GB(雙通16GB*2)DDR5 6000黑/CL36</div>
+<div class=x>含稅：NT12900 &nbsp;&diams;<a href='https://s.shopee.tw/1B5LuZf5p7' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(66, this)' onclick="Buy('66')">Buy</font></div></span>
+
+<div class=w>p7v51iBBY2VyIFByZWRhdG9yIFZlc3RhIElJIFJHQiAzMkdCKML5s3ExNkdCKjIpRERSNSA2MDAwu8gvQ0wzNg==</div>
+<span onclick='Show(this)'><img src='/eval/6/acervestaiid5x2s.jpg'><div class=t>宏碁 Acer Predator Vesta II RGB 32GB(雙通16GB*2)DDR5 6000銀/CL36</div>
+<div class=x>含稅：NT12900 &nbsp;&diams;<a href='https://s.shopee.tw/1B5LuZf5p7' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(67, this)' onclick="Buy('67')">Buy</font></div></span>
+
+<div class=w>p7v51iBBY2VyIFByZWRhdG9yIGhlcmEgUkdCIDQ4R0IowvmzcTI0R0IqMilERFI1IDg0MDC2wi9DTDQw</div>
+<span onclick='Show(this)'><img src='/eval/6/acerherargbd5x2b.jpg'><div class=t>宏碁 Acer Predator hera RGB 48GB(雙通24GB*2)DDR5 8400黑/CL40</div>
+<div class=x>含稅：NT19900 &nbsp;&diams;<a href='https://www.predatorstorage.com/products/predator-hera-ddr5-rgb-memory.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(68, this)' onclick="Buy('68')">Buy</font></div></span>
+
+<div class=w>p7v51iBBY2VyIFByZWRhdG9yIGhlcmEgUkdCIDQ4R0IowvmzcTI0R0IqMilERFI1IDg0MDC7yC9DTDQw</div>
+<span onclick='Show(this)'><img src='/eval/6/acerherargbd5x2w.jpg'><div class=t>宏碁 Acer Predator hera RGB 48GB(雙通24GB*2)DDR5 8400銀/CL40</div>
+<div class=x>含稅：NT19900 &nbsp;&diams;<a href='https://www.predatorstorage.com/products/predator-hera-ddr5-rgb-memory.html' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(69, this)' onclick="Buy('69')">Buy</font></div></span>
+
+<div class=w>S0xFVlYorOy94SkzMkdCKML5s3G5RDE2R0IqMilERFI1IDYwMDAgQ1JBUyBWIFJHQi9DTDMwIMJgpdu2wg==</div>
+<span onclick='Show(this)'><img src='/eval/6/klevvcrasvrgbd5x2.jpg'><div class=t>KLEVV(科賦)32GB(雙通道16GB*2)DDR5 6000 CRAS V RGB/CL30 曜石黑</div>
+<div class=x>含稅：NT13950 &nbsp;&diams;<a href='https://www.klevv.com/ktw/products_details/memory/Klevv_CrasVRGB' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(70, this)' onclick="Buy('70')">Buy</font></div></span>
+
+<div class=w>S0xFVlYorOy94Sk2NEdCKML5s3G5RDMyR0IqMilERFI1IDYwMDAgQ1JBUyBWIFJHQi9DTDMwIMJgpdu2wg==</div>
+<span onclick='Show(this)'><img src='/eval/6/klevvcrasvrgbd5x2.jpg'><div class=t>KLEVV(科賦)64GB(雙通道32GB*2)DDR5 6000 CRAS V RGB/CL30 曜石黑</div>
+<div class=x>含稅：NT27950 &nbsp;&diams;<a href='https://www.klevv.com/ktw/products_details/memory/Klevv_CrasVRGB' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(71, this)' onclick="Buy('71')">Buy</font></div></span>
+
+<div class=w>S0xFVlYorOy94Sk2NEdCKML5s3G5RDMyR0IqMilERFI1IDYwMDAgQ1JBUyBWIFJHQi9DTDMwILS5wOml1Q==</div>
+<span onclick='Show(this)'><img src='/eval/6/klevvcrasvrgbwd5x2.jpg'><div class=t>KLEVV(科賦)64GB(雙通道32GB*2)DDR5 6000 CRAS V RGB/CL30 晶燦白</div>
+<div class=x>含稅：NT27950 &nbsp;&diams;<a href='https://www.klevv.com/ktw/products_details/memory/Klevv_CrasVRGB' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(72, this)' onclick="Buy('72')">Buy</font></div></span>
+
+<div class=w>S0xFVlYorOy94SkzMkdCKML5s3G5RDE2R0IqMikgRERSNSA2NDAwL0NMMzIgQk9MVCBW</div>
+<span onclick='Show(this)'><img src='/eval/6/klevvboltvd5x2.jpg'><div class=t>KLEVV(科賦)32GB(雙通道16GB*2) DDR5 6400/CL32 BOLT V</div>
+<div class=x>含稅：NT13850 &nbsp;&diams;<a href='https://www.klevv.com/ktw/products_details/memory/Klevv_CrasXR5RGB' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(73, this)' onclick="Buy('73')">Buy</font></div></span>
+
+<div class=w>S0xFVlYorOy94SkzMkdCKML5s3G5RDE2R0IqMikgRERSNSA2NDAwL0NMMzIgQ1JBUyBWIFJHQiDCYKXbtsI=</div>
+<span onclick='Show(this)'><img src='/eval/6/klevvcrasvrgbd5x2.jpg'><div class=t>KLEVV(科賦)32GB(雙通道16GB*2) DDR5 6400/CL32 CRAS V RGB 曜石黑</div>
+<div class=x>含稅：NT14150 &nbsp;&diams;<a href='https://www.klevv.com/ktw/products_details/memory/Klevv_CrasVRGB' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(74, this)' onclick="Buy('74')">Buy</font></div></span>
+
+<div class=w>S0xFVlYorOy94SkzMkdCKML5s3G5RDE2R0IqMikgRERSNSA2NDAwL0NMMzIgQ1JBUyBWIFJHQiC0ucDppdU=</div>
+<span onclick='Show(this)'><img src='/eval/6/klevvcrasvrgbwd5x2.jpg'><div class=t>KLEVV(科賦)32GB(雙通道16GB*2) DDR5 6400/CL32 CRAS V RGB 晶燦白</div>
+<div class=x>含稅：NT14150 &nbsp;&diams;<a href='https://www.klevv.com/ktw/products_details/memory/Klevv_CrasVRGB' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(75, this)' onclick="Buy('75')">Buy</font></div></span>
+
+<div class=w>S0xFVlYorOy94Sk2NEdCKML5s3G5RDMyR0IqMikgRERSNSA2NDAwL0NMMzIgQ1JBUyBWIFJHQiDCYKXbtsI=</div>
+<span onclick='Show(this)'><img src='/eval/6/klevvcrasvrgbd5x2.jpg'><div class=t>KLEVV(科賦)64GB(雙通道32GB*2) DDR5 6400/CL32 CRAS V RGB 曜石黑</div>
+<div class=x>含稅：NT28300 &nbsp;&diams;<a href='https://www.klevv.com/ktw/products_details/memory/Klevv_CrasVRGB' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(76, this)' onclick="Buy('76')">Buy</font></div></span>
+
+<div class=w>S0xFVlYorOy94Sk2NEdCKML5s3G5RDMyR0IqMikgRERSNSA2NDAwL0NMMzIgQ1JBUyBWIFJHQiC0ucDppdU=</div>
+<span onclick='Show(this)'><img src='/eval/6/klevvcrasvrgbwd5x2.jpg'><div class=t>KLEVV(科賦)64GB(雙通道32GB*2) DDR5 6400/CL32 CRAS V RGB 晶燦白</div>
+<div class=x>含稅：NT28300 &nbsp;&diams;<a href='https://www.klevv.com/ktw/products_details/memory/Klevv_CrasVRGB' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(77, this)' onclick="Buy('77')">Buy</font></div></span>
+
+<div class=w>S0xFVlYorOy94SkzMkdCKML5s3ExNkdCKjIpIEREUjUgNjAwMC9DTDMwIFVSQkFORSBWIFJHQiAop0O4R7SyvPYp</div>
+<span onclick='Show(this)'><img src='/eval/6/klevvurbanevd5x2.jpg'><div class=t>KLEVV(科賦)32GB(雙通16GB*2) DDR5 6000/CL30 URBANE V RGB (低矮散熱)</div>
+<div class=x>含稅：NT13550 &nbsp;&diams;<a href='https://www.klevv.com/ktw/products_details/memory/Klevv_UrbaneVRGB.php' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(78, this)' onclick="Buy('78')">Buy</font></div></span>
+
+<div class=w>S0xFVlYorOy94SkzMkdCKML5s3ExNkdCKjIpIEREUjUgNjAwMC9DTDI4IFVSQkFORSBWIFJHQiAop0O4R7SyvPYp</div>
+<span onclick='Show(this)'><img src='/eval/6/klevvurbanevd5x2.jpg'><div class=t>KLEVV(科賦)32GB(雙通16GB*2) DDR5 6000/CL28 URBANE V RGB (低矮散熱)</div>
+<div class=x>含稅：NT13950 &nbsp;&diams;<a href='https://www.klevv.com/ktw/products_details/memory/Klevv_UrbaneVRGB.php' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(79, this)' onclick="Buy('79')">Buy</font></div></span>
+
+<div class=w>S0xFVlYorOy94SkzMkdCKML5s3ExNkdCKjIpIEREUjUgNjQwMC9DTDMyIFVSQkFORSBWIFJHQiAop0O4R7SyvPYp</div>
+<span onclick='Show(this)'><img src='/eval/6/klevvurbanevd5x2.jpg'><div class=t>KLEVV(科賦)32GB(雙通16GB*2) DDR5 6400/CL32 URBANE V RGB (低矮散熱)</div>
+<div class=x>含稅：NT14150 &nbsp;&diams;<a href='https://www.klevv.com/ktw/products_details/memory/Klevv_UrbaneVRGB.php' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(80, this)' onclick="Buy('80')">Buy</font></div></span>
+
+<div class=w>S0xFVlYorOy94SkzMkdCKML5s3ExNkdCKjIpIEREUjUgNjQwMC9DTDMwIFVSQkFORSBWIFJHQiAop0O4R7SyvPYp</div>
+<span onclick='Show(this)'><img src='/eval/6/klevvurbanevd5x2.jpg'><div class=t>KLEVV(科賦)32GB(雙通16GB*2) DDR5 6400/CL30 URBANE V RGB (低矮散熱)</div>
+<div class=x>含稅：NT14350 &nbsp;&diams;<a href='https://www.klevv.com/ktw/products_details/memory/Klevv_UrbaneVRGB.php' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(81, this)' onclick="Buy('81')">Buy</font></div></span>
+
+<div class=w>S0xFVlYorOy94Sk0OEdCKML5s3EyNEdCKjIpIEREUjUgNjAwMC9DTDMwIFVSQkFORSBWIFJHQiAop0O4R7SyvPYp</div>
+<span onclick='Show(this)'><img src='/eval/6/klevvurbanevd5x2.jpg'><div class=t>KLEVV(科賦)48GB(雙通24GB*2) DDR5 6000/CL30 URBANE V RGB (低矮散熱)</div>
+<div class=x>含稅：NT16800 &nbsp;&diams;<a href='https://www.klevv.com/ktw/products_details/memory/Klevv_UrbaneVRGB.php' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(82, this)' onclick="Buy('82')">Buy</font></div></span>
+
+<div class=w>S0xFVlYorOy94Sk0OEdCKML5s3EyNEdCKjIpIEREUjUgNjQwMC9DTDMyIFVSQkFORSBWIFJHQiAop0O4R7SyvPYp</div>
+<span onclick='Show(this)'><img src='/eval/6/klevvurbanevd5x2.jpg'><div class=t>KLEVV(科賦)48GB(雙通24GB*2) DDR5 6400/CL32 URBANE V RGB (低矮散熱)</div>
+<div class=x>含稅：NT19550 &nbsp;&diams;<a href='https://www.klevv.com/ktw/products_details/memory/Klevv_UrbaneVRGB.php' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(83, this)' onclick="Buy('83')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDMyR0IowvmzcTE2R0IqMikgRERSNS01NjAwL0NMMzYgRlVSWSBCZWFzdLbC</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2.jpg'><div class=t>金士頓 32GB(雙通16GB*2) DDR5-5600/CL36 FURY Beast黑</div>
+<div class=x>含稅：NT13800 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-memory?speed=5600mt%2Fs&total%20(kit)%20capacity=32gb&kit=kit%20of%202&dram%20density=16gbit&profile%20type=amd%20expo&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(84, this)' onclick="Buy('84')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDMyR0IowvmzcTE2R0IqMikgRERSNS01NjAwL0NMMzYgRlVSWSBCZWFzdKXV</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2w.jpg'><div class=t>金士頓 32GB(雙通16GB*2) DDR5-5600/CL36 FURY Beast白</div>
+<div class=x>含稅：NT13800 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-memory?speed=5600mt%2Fs&total%20(kit)%20capacity=32gb&kit=kit%20of%202&dram%20density=16gbit&profile%20type=amd%20expo&color=white' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(85, this)' onclick="Buy('85')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDMyR0IowvmzcTE2R0IqMikgRERSNS01NjAwL0NMMzYgRlVSWSBCZWFzdCBSR0K2wg==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2rgb.jpg'><div class=t>金士頓 32GB(雙通16GB*2) DDR5-5600/CL36 FURY Beast RGB黑</div>
+<div class=x>含稅：NT13990 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-rgb-memory?speed=5600mt%2Fs&total%20(kit)%20capacity=32gb&kit=kit%20of%202&dram%20density=16gbit&profile%20type=amd%20expo&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(86, this)' onclick="Buy('86')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDMyR0IowvmzcTE2R0IqMikgRERSNS01NjAwL0NMMzYgRlVSWSBCZWFzdCBSR0K2wn63Zr73u/l+</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2rgb.jpg'><div class=t>金士頓 32GB(雙通16GB*2) DDR5-5600/CL36 FURY Beast RGB黑~搭機價~</div>
+<div class=x>含稅：NT13800 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-rgb-memory?speed=5600mt%2Fs&total%20(kit)%20capacity=32gb&kit=kit%20of%202&dram%20density=16gbit&profile%20type=amd%20expo&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(87, this)' onclick="Buy('87')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDMyR0IowvmzcTE2R0IqMikgRERSNS01NjAwL0NMMzYgRlVSWSBCZWFzdCBSR0Kl1Q==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2rgbw.jpg'><div class=t>金士頓 32GB(雙通16GB*2) DDR5-5600/CL36 FURY Beast RGB白</div>
+<div class=x>含稅：NT13990 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-rgb-memory?speed=5600mt%2Fs&total%20(kit)%20capacity=32gb&kit=kit%20of%202&dram%20density=16gbit&profile%20type=amd%20expo&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(88, this)' onclick="Buy('88')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDMyR0IowvmzcTE2R0IqMikgRERSNS01NjAwL0NMMzYgRlVSWSBCZWFzdCBSR0Kl1X63Zr73u/l+</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2rgbw.jpg'><div class=t>金士頓 32GB(雙通16GB*2) DDR5-5600/CL36 FURY Beast RGB白~搭機價~</div>
+<div class=x>含稅：NT13800 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-rgb-memory?speed=5600mt%2Fs&total%20(kit)%20capacity=32gb&kit=kit%20of%202&dram%20density=16gbit&profile%20type=amd%20expo&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(89, this)' onclick="Buy('89')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDMyR0IowvmzcTE2R0IqMikgRERSNS02MDAwL0NMMzAgRlVSWSBCZWFzdCC2wiAow37CearMKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2.jpg'><div class=t>金士頓 32GB(雙通16GB*2) DDR5-6000/CL30 FURY Beast 黑 (獸獵者)</div>
+<div class=x>含稅：NT14200 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-rgb-memory' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(90, this)' onclick="Buy('90')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDMyR0IowvmzcTE2R0IqMikgRERSNS02MDAwL0NMMzAgRlVSWSBCZWFzdCCl1SAow37CearMKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2w.jpg'><div class=t>金士頓 32GB(雙通16GB*2) DDR5-6000/CL30 FURY Beast 白 (獸獵者)</div>
+<div class=x>含稅：NT14200 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-rgb-memory' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(91, this)' onclick="Buy('91')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDMyR0IowvmzcTE2R0IqMikgRERSNS02MDAwL0NMMzAgRlVSWSBCZWFzdCBSR0K2wg==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2rgb.jpg'><div class=t>金士頓 32GB(雙通16GB*2) DDR5-6000/CL30 FURY Beast RGB黑</div>
+<div class=x>含稅：NT14300 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-rgb-memory' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(92, this)' onclick="Buy('92')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDMyR0IowvmzcTE2R0IqMikgRERSNS02NDAwL0NMMzIgRlVSWSBCZWFzdCC2wiAow37CearMKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2.jpg'><div class=t>金士頓 32GB(雙通16GB*2) DDR5-6400/CL32 FURY Beast 黑 (獸獵者)</div>
+<div class=x>含稅：NT13990 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-memory?speed=6000mt%2Fs&total%20(kit)%20capacity=32gb&kit=kit%20of%202&dram%20density=16gbit&profile%20type=amd%20expo&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(93, this)' onclick="Buy('93')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDMyR0IowvmzcTE2R0IqMikgRERSNS02NDAwL0NMMzIgRlVSWSBCZWFzdCCl1SAow37CearMKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2w.jpg'><div class=t>金士頓 32GB(雙通16GB*2) DDR5-6400/CL32 FURY Beast 白 (獸獵者)</div>
+<div class=x>含稅：NT13990 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-memory?speed=6000mt%2Fs&total%20(kit)%20capacity=32gb&kit=kit%20of%202&dram%20density=16gbit&profile%20type=amd%20expo&color=white' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(94, this)' onclick="Buy('94')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDMyR0IowvmzcTE2R0IqMikgRERSNS02NDAwL0NMMzIgRlVSWSBCZWFzdCBSR0K2wg==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2rgb.jpg'><div class=t>金士頓 32GB(雙通16GB*2) DDR5-6400/CL32 FURY Beast RGB黑</div>
+<div class=x>含稅：NT14300 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-rgb-memory?speed=6000mt%2Fs&total%20(kit)%20capacity=64gb&kit=kit%20of%202&dram%20density=16gbit&profile%20type=amd%20expo&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(95, this)' onclick="Buy('95')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDY0R0IowvmzcTMyR0IqMikgRERSNS01NjAwL0NMMzYgRlVSWSBCZWFzdCC2wiAow37CearMKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2.jpg'><div class=t>金士頓 64GB(雙通32GB*2) DDR5-5600/CL36 FURY Beast 黑 (獸獵者)</div>
+<div class=x>含稅：NT27500 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-memory?speed=5600mt%2Fs&total%20(kit)%20capacity=64gb&kit=kit%20of%202&dram%20density=16gbit&profile%20type=amd%20expo&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(96, this)' onclick="Buy('96')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDY0R0IowvmzcTMyR0IqMikgRERSNS01NjAwL0NMMzYgRlVSWSBCZWFzdCCl1SAow37CearMKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2w.jpg'><div class=t>金士頓 64GB(雙通32GB*2) DDR5-5600/CL36 FURY Beast 白 (獸獵者)</div>
+<div class=x>含稅：NT27500 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-memory?speed=5600mt%2Fs&total%20(kit)%20capacity=64gb&kit=kit%20of%202&dram%20density=16gbit&profile%20type=amd%20expo&color=white' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(97, this)' onclick="Buy('97')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDY0R0IowvmzcTMyR0IqMikgRERSNS02MDAwL0NMMzAgRlVSWSBCZWFzdCC2wiAow37CearMKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2.jpg'><div class=t>金士頓 64GB(雙通32GB*2) DDR5-6000/CL30 FURY Beast 黑 (獸獵者)</div>
+<div class=x>含稅：NT27800 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-rgb-memory' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(98, this)' onclick="Buy('98')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDY0R0IowvmzcTMyR0IqMikgRERSNS02MDAwL0NMMzAgRlVSWSBCZWFzdCCl1SAow37CearMKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2w.jpg'><div class=t>金士頓 64GB(雙通32GB*2) DDR5-6000/CL30 FURY Beast 白 (獸獵者)</div>
+<div class=x>含稅：NT27800 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-rgb-memory' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(99, this)' onclick="Buy('99')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDY0R0IowvmzcTMyR0IqMikgRERSNS02MDAwL0NMMzAgRlVSWSBCZWFzdCBSR0K2wg==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2rgb.jpg'><div class=t>金士頓 64GB(雙通32GB*2) DDR5-6000/CL30 FURY Beast RGB黑</div>
+<div class=x>含稅：NT28000 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-rgb-memory?speed=6000mt%2Fs&total%20(kit)%20capacity=64gb&kit=kit%20of%202&dram%20density=16gbit&profile%20type=amd%20expo&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(100, this)' onclick="Buy('100')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDY0R0IowvmzcTMyR0IqMikgRERSNS02MDAwL0NMMzAgRlVSWSBCZWFzdCBSR0Kl1Q==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2rgbw.jpg'><div class=t>金士頓 64GB(雙通32GB*2) DDR5-6000/CL30 FURY Beast RGB白</div>
+<div class=x>含稅：NT28000 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-rgb-memory?speed=6000mt%2Fs&total%20(kit)%20capacity=64gb&kit=kit%20of%202&dram%20density=16gbit&profile%20type=amd%20expo&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(101, this)' onclick="Buy('101')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDY0R0IowvmzcTMyR0IqMikgRERSNS02NDAwL0NMMzIgRlVSWSBCZWFzdCC2wiAow37CearMKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2.jpg'><div class=t>金士頓 64GB(雙通32GB*2) DDR5-6400/CL32 FURY Beast 黑 (獸獵者)</div>
+<div class=x>含稅：NT27500 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-memory?speed=6000mt%2Fs&total%20(kit)%20capacity=32gb&kit=kit%20of%202&dram%20density=16gbit&profile%20type=amd%20expo&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(102, this)' onclick="Buy('102')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDY0R0IowvmzcTMyR0IqMikgRERSNS02NDAwL0NMMzIgRlVSWSBCZWFzdCCl1SAow37CearMKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2w.jpg'><div class=t>金士頓 64GB(雙通32GB*2) DDR5-6400/CL32 FURY Beast 白 (獸獵者)</div>
+<div class=x>含稅：NT27500 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-memory?speed=6000mt%2Fs&total%20(kit)%20capacity=32gb&kit=kit%20of%202&dram%20density=16gbit&profile%20type=amd%20expo&color=white' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(103, this)' onclick="Buy('103')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDY0R0IowvmzcTMyR0IqMikgRERSNS02NDAwL0NMMzIgRlVSWSBCZWFzdCBSR0K2wg==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2rgb.jpg'><div class=t>金士頓 64GB(雙通32GB*2) DDR5-6400/CL32 FURY Beast RGB黑</div>
+<div class=x>含稅：NT27888 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-rgb-memory?speed=6000mt%2Fs&total%20(kit)%20capacity=64gb&kit=kit%20of%202&dram%20density=16gbit&profile%20type=amd%20expo&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(104, this)' onclick="Buy('104')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDY0R0IowvmzcTMyR0IqMikgRERSNS02NDAwL0NMMzIgRlVSWSBCZWFzdCBSR0Kl1Q==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond5furyx2rgbw.jpg'><div class=t>金士頓 64GB(雙通32GB*2) DDR5-6400/CL32 FURY Beast RGB白</div>
+<div class=x>含稅：NT27888 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr5-rgb-memory?speed=6000mt%2Fs&total%20(kit)%20capacity=64gb&kit=kit%20of%202&dram%20density=16gbit&profile%20type=amd%20expo&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(105, this)' onclick="Buy('105')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDMyR0IowvmzcTE2R0IqMikgRERSNS03MjAwIEZVUlkgUmVuZWdhZGUgUkdCtsIoS0Y1NzJDMzhSU0FLMi0zMik=</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstonfuryrenegadex2.jpg'><div class=t>金士頓 32GB(雙通16GB*2) DDR5-7200 FURY Renegade RGB黑(KF572C38RSAK2-32)</div>
+<div class=x>含稅：NT15800 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/fury-renegade-ddr5-rgb?speed=7200mt%2Fs&total%20(kit)%20capacity=32gb&kit=kit%20of%202&dram%20density=16gbit&color=black' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(106, this)' onclick="Buy('106')">Buy</font></div></span>
+
+<div class=w>pFG7zVQtQ1JFQVRFIEVYUEVSVCCk3rviqswzMkdCKML5s3ExNkdCKjIpIEQ1LTY0MDAvQ0wzMiCl1abiILO7s1ekUbxoUENC</div>
+<span onclick='Show(this)'><img src='/eval/6/tcreateexpertw.jpg'><div class=t>十銓T-CREATE EXPERT 引領者32GB(雙通16GB*2) D5-6400/CL32 白色 頂規十層PCB</div>
+<div class=x>含稅：NT13900 &nbsp;&diams;<a href='https://www.teamgroupinc.com/tw/product-detail/memory/T-CREATE/expert-u-dimm-ddr5-white/expert-u-dimm-ddr5-white-CTCWD532G6400HC32ADC01/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(107, this)' onclick="Buy('107')">Buy</font></div></span>
+
+<div class=w>pFG7zVhUUkVFTSClyMPotLK89qT5IDMyR0IowvmzcTE2R0IqMikgRERSNS03MjAwL0NMMzQgtsKm4g==</div>
+<span onclick='Show(this)'><img src='/eval/6/teamxtreemd5x2.jpg'><div class=t>十銓XTREEM 玄鏡散熱片 32GB(雙通16GB*2) DDR5-7200/CL34 黑色</div>
+<div class=x>含稅：NT15600 &nbsp;&diams;<a href='https://www.teamgroupinc.com/tw/product-detail/memory/desktop/xtreem-ddr5-black/xtreem-ddr5-black-FFXD564G6400HC34BDC01/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(108, this)' onclick="Buy('108')">Buy</font></div></span>
+
+<div class=w>pFG7zVhUUkVFTSClyMPotLK89qT5IDMyR0IowvmzcTE2R0IqMikgRERSNS03MjAwL0NMMzQgpdWm4g==</div>
+<span onclick='Show(this)'><img src='/eval/6/teamxtreemd5x2w.jpg'><div class=t>十銓XTREEM 玄鏡散熱片 32GB(雙通16GB*2) DDR5-7200/CL34 白色</div>
+<div class=x>含稅：NT15600 &nbsp;&diams;<a href='https://www.teamgroupinc.com/tw/product-detail/memory/desktop/xtreem-ddr5-white/xtreem-ddr5-white-FFWD596G6800HC36DDC01/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(109, this)' onclick="Buy('109')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCA2NEdCKML5s3EzMkdCKjIpIEREUjUgNTYwMC9DTDQ2KK3spc3B+7LJKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/micronddr5x2.jpg'><div class=t>美光 Micron Crucial 64GB(雙通32GB*2) DDR5 5600/CL46(原生顆粒)</div>
+<div class=x>含稅：NT23999 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/CT2K16G56C46U5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(110, this)' onclick="Buy('110')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCBQUk8gtlfAVyA5NkdCKML5s3E0OEdCKjIpIEREUjUgNTYwMC9DTDQ2ILbCpuK0srz2pPmhv6RVsf6o7CA2LzI2IDIzOjU5</div>
+<span onclick='Show(this)'><img src='/eval/6/micronprod5x2.jpg'><div class=t>美光 Micron Crucial PRO 超頻 96GB(雙通48GB*2) DDR5 5600/CL46 黑色散熱片▼下殺到 6/26 23:59</div>
+<div class=x>含稅：NT23999 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/cp2k48g56c46u5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(111, this)' onclick="Buy('111')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCBQUk8gtlfAVyAzMkdCKML5s3ExNkdCKjIpIEREUjUgNjAwMC9DTDM2ILbCpuK0srz2pPk=</div>
+<span onclick='Show(this)'><img src='/eval/6/micronprod5x2b.jpg'><div class=t>美光 Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6000/CL36 黑色散熱片</div>
+<div class=x>含稅：NT12800 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/cp2k16g60c36u5b' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(112, this)' onclick="Buy('112')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCBQUk8gtlfAVyAzMkdCKML5s3ExNkdCKjIpIEREUjUgNjAwMC9DTDM2IKXVpuK0srz2pPk=</div>
+<span onclick='Show(this)'><img src='/eval/6/micronprod5x2w.jpg'><div class=t>美光 Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6000/CL36 白色散熱片</div>
+<div class=x>含稅：NT12800 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/cp2k16g60c36u5w' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(113, this)' onclick="Buy('113')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCBQUk8gtlfAVyA2NEdCKML5s3EzMkdCKjIpIEREUjUgNjAwMC9DTDQwILbCpuK0srz2pPk=</div>
+<span onclick='Show(this)'><img src='/eval/6/micronprod5x2b.jpg'><div class=t>美光 Micron Crucial PRO 超頻 64GB(雙通32GB*2) DDR5 6000/CL40 黑色散熱片</div>
+<div class=x>含稅：NT26500 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/cp2k16g60c36u5b' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(114, this)' onclick="Buy('114')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCBQUk8gtlfAVyA2NEdCKML5s3EzMkdCKjIpIEREUjUgNjAwMC9DTDQwIKXVpuK0srz2pPk=</div>
+<span onclick='Show(this)'><img src='/eval/6/micronprod5x2w.jpg'><div class=t>美光 Micron Crucial PRO 超頻 64GB(雙通32GB*2) DDR5 6000/CL40 白色散熱片</div>
+<div class=x>含稅：NT26500 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/cp2k16g60c36u5w' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(115, this)' onclick="Buy('115')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCBQUk8gtlfAVyAzMkdCKML5s3ExNkdCKjIpIEREUjUgNjQwMC9DTDM4ILbCpuK0srz2pPk=</div>
+<span onclick='Show(this)'><img src='/eval/6/micronprod5x2b.jpg'><div class=t>美光 Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6400/CL38 黑色散熱片</div>
+<div class=x>含稅：NT13800 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/cp2k16g60c36u5b' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(116, this)' onclick="Buy('116')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCBQUk8gtlfAVyAzMkdCKML5s3ExNkdCKjIpIEREUjUgNjQwMC9DTDM4IKXVpuK0srz2pPk=</div>
+<span onclick='Show(this)'><img src='/eval/6/micronprod5x2w.jpg'><div class=t>美光 Micron Crucial PRO 超頻 32GB(雙通16GB*2) DDR5 6400/CL38 白色散熱片</div>
+<div class=x>含稅：NT13800 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/cp2k16g60c36u5w' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(117, this)' onclick="Buy('117')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCBQUk8gtlfAVyA2NEdCKML5s3EzMkdCKjIpIEREUjUgNjQwMC9DTDQwILbCpuK0srz2pPk=</div>
+<span onclick='Show(this)'><img src='/eval/6/micronprod5x2b.jpg'><div class=t>美光 Micron Crucial PRO 超頻 64GB(雙通32GB*2) DDR5 6400/CL40 黑色散熱片</div>
+<div class=x>含稅：NT28500 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/cp2k16g60c36u5b' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(118, this)' onclick="Buy('118')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCBQUk8gtlfAVyA2NEdCKML5s3EzMkdCKjIpIEREUjUgNjQwMC9DTDQwIKXVpuK0srz2pPk=</div>
+<span onclick='Show(this)'><img src='/eval/6/micronprod5x2w.jpg'><div class=t>美光 Micron Crucial PRO 超頻 64GB(雙通32GB*2) DDR5 6400/CL40 白色散熱片</div>
+<div class=x>含稅：NT28500 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/cp2k16g60c36u5w' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(119, this)' onclick="Buy('119')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCBQUk8gtlfAVyA5NkdCKML5s3E0OEdCKjIpIEREUjUgNTYwMC9DTDQ2</div>
+<span onclick='Show(this)'><img src='/eval/6/micronprod5x2.jpg'><div class=t>美光 Micron Crucial PRO 超頻 96GB(雙通48GB*2) DDR5 5600/CL46</div>
+<div class=x>含稅：NT37800 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/cp2k48g56c46u5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(120, this)' onclick="Buy('120')">Buy</font></div></span>
+
+<div class=w>rvy1c7LuIFZFTkdFQU5DRSAzMkcoMTZHKjIpRERSNS02MDAwL0NMMzYgpscoQ01LMzJHWDVNMkU2MDAwWjM2KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/corsairvengeanced5x2.jpg'><div class=t>海盜船 VENGEANCE 32G(16G*2)DDR5-6000/CL36 灰(CMK32GX5M2E6000Z36)</div>
+<div class=x>含稅：NT13490 &nbsp;&diams;<a href='https://www.corsair.com/tw/zh/p/memory/cmk32gx5m2b6000c36/vengeance-32gb-2x16gb-ddr5-dram-6000mhz-c36-memory-kit-black-cmk32gx5m2b6000c36' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(121, this)' onclick="Buy('121')">Buy</font></div></span>
+
+<div class=w>rvy1c7LuIFZFTkdFQU5DRSAzMkcoMTZHKjIpRERSNS02MDAwL0NMMzYgpsdSR0IoQ01IMzJHWDVNMkU2MDAwWjM2KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/corsairvengeanced5x2rgb.jpg'><div class=t>海盜船 VENGEANCE 32G(16G*2)DDR5-6000/CL36 灰RGB(CMH32GX5M2E6000Z36)</div>
+<div class=x>含稅：NT13800 &nbsp;&diams;<a href='https://www.corsair.com/tw/zh/p/memory/cmh32gx5m2d6000c36/vengeance-rgb-32gb-2x16gb-ddr5-dram-6000mhz-c36-memory-kit-black-cmh32gx5m2d6000c36' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(122, this)' onclick="Buy('122')">Buy</font></div></span>
+
+<div class=w>rvy1c7LuIFZFTkdFQU5DRSAzMkcoMTZHKjIpRERSNS02MDAwL0NMMzAgpscoQ01LMzJHWDVNMkI2MDAwWjMwKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/corsairvengeanced5x2.jpg'><div class=t>海盜船 VENGEANCE 32G(16G*2)DDR5-6000/CL30 灰(CMK32GX5M2B6000Z30)</div>
+<div class=x>含稅：NT13490 &nbsp;&diams;<a href='https://www.corsair.com/tw/zh/p/memory/cmk32gx5m2b6000c30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-c30-memory-kit-black-cmk32gx5m2b6000c30' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(123, this)' onclick="Buy('123')">Buy</font></div></span>
+
+<div class=w>rvy1c7LuIFZFTkdFQU5DRSAzMkcoMTZHKjIpRERSNS02MDAwL0NMMzAgpsdSR0IoQ01IMzJHWDVNMkI2MDAwWjMwSyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/corsairvengeanced5x2rgb.jpg'><div class=t>海盜船 VENGEANCE 32G(16G*2)DDR5-6000/CL30 灰RGB(CMH32GX5M2B6000Z30K)</div>
+<div class=x>含稅：NT13990 &nbsp;&diams;<a href='https://www.corsair.com/tw/zh/p/memory/cmh32gx5m2d6000c36/vengeance-rgb-32gb-2x16gb-ddr5-dram-6000mhz-c36-memory-kit-black-cmh32gx5m2d6000c36' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(124, this)' onclick="Buy('124')">Buy</font></div></span>
+
+<div class=w>rvy1c7LuIFZFTkdFQU5DRSAzMkcoMTZHKjIpRERSNS02NDAwL0NMMzYgpscoQ01LMzJHWDVNMkI2NDAwWjM2KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/corsairvengeanced5x2.jpg'><div class=t>海盜船 VENGEANCE 32G(16G*2)DDR5-6400/CL36 灰(CMK32GX5M2B6400Z36)</div>
+<div class=x>含稅：NT13900 &nbsp;&diams;<a href='https://www.corsair.com/tw/zh/p/memory/cmk32gx5m2b6400c36/vengeance-32gb-2x16gb-ddr5-dram-6400mt-s-c36-memory-kit-black-cmk32gx5m2b6400c36' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(125, this)' onclick="Buy('125')">Buy</font></div></span>
+
+<div class=w>rvy1c7LuIFZFTkdFQU5DRSAzMkcoMTZHKjIpRERSNS02NDAwL0NMMzYgpsdSR0IoQ01IMzJHWDVNMkI2NDAwWjM2KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/corsairvengeanced5x2rgb.jpg'><div class=t>海盜船 VENGEANCE 32G(16G*2)DDR5-6400/CL36 灰RGB(CMH32GX5M2B6400Z36)</div>
+<div class=x>含稅：NT14300 &nbsp;&diams;<a href='https://www.corsair.com/tw/zh/p/memory/cmh32gx5m2b6400c36/vengeance-rgb-32gb-2x16gb-ddr5-dram-6400mt-s-c36-memory-kit-black-cmh32gx5m2b6400c36' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(126, this)' onclick="Buy('126')">Buy</font></div></span>
+
+<div class=w>rvy1c7LuIFZFTkdFQU5DRSAzMkcoMTZHKjIpRERSNS02NDAwL0NMMzIgpscoQ01LMzJHWDVNMkI2NDAwWjMyKUFJ</div>
+<span onclick='Show(this)'><img src='/eval/6/corsairvengeanced5x2.jpg'><div class=t>海盜船 VENGEANCE 32G(16G*2)DDR5-6400/CL32 灰(CMK32GX5M2B6400Z32)AI</div>
+<div class=x>含稅：NT14000 &nbsp;&diams;<a href='https://www.corsair.com/tw/zh/p/ddr5-ram/cmk32gx5m2x6400c32/vengeance-32gb-2x16gb-ddr5-dram-6400mt-s-c32-memory-kit-black-cmk32gx5m2x6400c32' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(127, this)' onclick="Buy('127')">Buy</font></div></span>
+
+<div class=w>rvy1c7LuIFZFTkdFQU5DRSAzMkcoMTZHKjIpRERSNS02NDAwL0NMMzIgpsdSR0IoQ01IMzJHWDVNMkI2NDAwWjMyKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/corsairvengeanced5x2rgb.jpg'><div class=t>海盜船 VENGEANCE 32G(16G*2)DDR5-6400/CL32 灰RGB(CMH32GX5M2B6400Z32)</div>
+<div class=x>含稅：NT14500 &nbsp;&diams;<a href='https://www.corsair.com/tw/zh/p/ddr5-ram/cmh32gx5m2x6400c32/vengeance-rgb-32gb-2x16gb-ddr5-dram-6400mt-s-c32-memory-kit-black-cmh32gx5m2x6400c32' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(128, this)' onclick="Buy('128')">Buy</font></div></span>
+
+<div class=w>rvy1c7LuIFZFTkdFQU5DRSA5NkcoNDhHKjIpRERSNS02MDAwL0NMMzYgpscoQ01LOTZHWDVNMkU2MDAwWjM2KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/corsairvengeanced5x2.jpg'><div class=t>海盜船 VENGEANCE 96G(48G*2)DDR5-6000/CL36 灰(CMK96GX5M2E6000Z36)</div>
+<div class=x>含稅：NT37800 &nbsp;&diams;<a href='https://www.corsair.com/tw/zh/p/ddr5-ram/cmk32gx5m2x6400c32/vengeance-32gb-2x16gb-ddr5-dram-6400mt-s-c32-memory-kit-black-cmk32gx5m2x6400c32' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(129, this)' onclick="Buy('129')">Buy</font></div></span>
+
+<div class=w>rvy1c7LuIERPTUlOQVRPUiBUSVRBTklVTSAzMkcoMTZHKjIpIEQ1LTYwMDAvQ0wzMCCmx1JHQihDTVAzMkdYNU0yQjYwMDBaMzAp</div>
+<span onclick='Show(this)'><img src='/eval/6/corsairdominatiortitd5x2g.jpg'><div class=t>海盜船 DOMINATOR TITANIUM 32G(16G*2) D5-6000/CL30 灰RGB(CMP32GX5M2B6000Z30)</div>
+<div class=x>含稅：NT19200 &nbsp;&diams;<a href='https://www.corsair.com/tw/zh/p/memory/cmk32gx5m2b6000c30/vengeance-32gb-2x16gb-ddr5-dram-6000mt-s-c30-memory-kit-black-cmk32gx5m2b6000c30' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(130, this)' onclick="Buy('130')">Buy</font></div></span>
+
+<div class=w>rvy1c7LuIERPTUlOQVRPUiBUSVRBTklVTSAzMkcoMTZHKjIpIEQ1LTcyMDAvQ0wzNCC2wlJHQihDTVAzMkdYNU0yWDcyMDBDMzQp</div>
+<span onclick='Show(this)'><img src='/eval/6/corsairdominatiortitd5x2.jpg'><div class=t>海盜船 DOMINATOR TITANIUM 32G(16G*2) D5-7200/CL34 黑RGB(CMP32GX5M2X7200C34)</div>
+<div class=x>含稅：NT17800 &nbsp;&diams;<a href='https://www.corsair.com/tw/zh/p/memory/cmp32gx5m2x7200c34/dominator-titanium-rgb-2x16gb-ddr5-dram-7200mt-s-c34-intel-xmp-memory-kit-cmp32gx5m2x7200c34?srsltid=AfmBOooQnG1FE1FHgTyE4m6WIQrA9MRvdMDLanqIPieUYwusp0gb32ur' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(131, this)' onclick="Buy('131')">Buy</font></div></span>
+
+<div class=w>rvy1c7LuIERPTUlOQVRPUiBUSVRBTklVTSAzMkcoMTZHKjIpIEQ1LTcyMDAvQ0wzNCCl1VJHQihDTVAzMkdYNU0yWDcyMDBDMzRXKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/corsairdominatiortitd5x2w.jpg'><div class=t>海盜船 DOMINATOR TITANIUM 32G(16G*2) D5-7200/CL34 白RGB(CMP32GX5M2X7200C34W)</div>
+<div class=x>含稅：NT17800 &nbsp;&diams;<a href='https://www.corsair.com/tw/tw/p/memory/cmp32gx5m2x7200c34few/dominator-titanium-2x16gb-first-edition-ddr5-dram-7200mt-s-cl34-intel-xmp-white-memory-kit-cmp32gx5m2x7200c34few?srsltid=AfmBOooHksW60Yp9-Opo_OU8_m6U18pW8xK8us5xxHpYPU45fBnkL9hr' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(132, this)' onclick="Buy('132')">Buy</font></div></span>
+
+<div class=w>qtupX0ZsYXJlIFg1IK9QtUu6ajMyR0IowvmzcTE2RyoyKUQ1LTYwMDAgQ0wyOLbCKEY1LTYwMDBKMjgzNkcxNkdYMi1GWDUp</div>
+<span onclick='Show(this)'><img src='/eval/6/gskillflarex5d5x2.jpg'><div class=t>芝奇Flare X5 烈焰槍32GB(雙通16G*2)D5-6000 CL28黑(F5-6000J2836G16GX2-FX5)</div>
+<div class=x>含稅：NT19500 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/397/1729505414/F5-6000J2836G16GX2-FX5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(133, this)' onclick="Buy('133')">Buy</font></div></span>
+
+<div class=w>qtupX0ZsYXJlIFg1IK9QtUu6ajMyR0IowvmzcTE2RyoyKUQ1LTYwMDAgQ0wyOKXVKEY1LTYwMDBKMjgzNkcxNkdYMi1GWDVXKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskillflarex5d5x2w.jpg'><div class=t>芝奇Flare X5 烈焰槍32GB(雙通16G*2)D5-6000 CL28白(F5-6000J2836G16GX2-FX5W)</div>
+<div class=x>含稅：NT19500 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/397/1731987315/F5-6000J2836G16GX2-FX5W' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(134, this)' onclick="Buy('134')">Buy</font></div></span>
+
+<div class=w>qtupX0ZsYXJlIFg1r1C1S7pqIDY0R0IowvmzcTMyRyoyKUQ1LTYwMDAvQ0wzMLbCKEY1LTYwMDBKMzA0MEczMkdYMi1GWDUp</div>
+<span onclick='Show(this)'><img src='/eval/6/gskillflarex5d5x2.jpg'><div class=t>芝奇Flare X5烈焰槍 64GB(雙通32G*2)D5-6000/CL30黑(F5-6000J3040G32GX2-FX5)</div>
+<div class=x>含稅：NT34800 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/397/1691400033/F5-6000J3040G32GX2-FX5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(135, this)' onclick="Buy('135')">Buy</font></div></span>
+
+<div class=w>qtupX0ZsYXJlIFg1r1C1S7pqIDY0R0IowvmzcTMyRyoyKUQ1LTYwMDAvQ0wzMKXVKEY1LTYwMDBKMzA0MEczMkdYMi1GWDVXKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskillflarex5d5x2w.jpg'><div class=t>芝奇Flare X5烈焰槍 64GB(雙通32G*2)D5-6000/CL30白(F5-6000J3040G32GX2-FX5W)</div>
+<div class=x>含稅：NT34800 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/397/1691400033/F5-6000J3040G32GX2-FX5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(136, this)' onclick="Buy('136')">Buy</font></div></span>
+
+<div class=w>qtupX0ZsYXJlIFg1IK9QtUu6ajY0R0IowvmzcTMyRyoyKUQ1LTYwMDAgQ0wyOLbCKEY1LTYwMDBKMjgzNkczMkdYMi1GWDUp</div>
+<span onclick='Show(this)'><img src='/eval/6/gskillflarex5d5x2.jpg'><div class=t>芝奇Flare X5 烈焰槍64GB(雙通32G*2)D5-6000 CL28黑(F5-6000J2836G32GX2-FX5)</div>
+<div class=x>含稅：NT37500 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/397/1731653269/F5-6000J2836G32GX2-FX5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(137, this)' onclick="Buy('137')">Buy</font></div></span>
+
+<div class=w>qtupX0ZsYXJlIFg1IK9QtUu6ajEyOEdCKML5s3E2NEcqMilENS02MDAwIENMMzS2wihGNS02MDAwSjM0NDRGNjRHWDItRlg1KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskillflarex5d5x2.jpg'><div class=t>芝奇Flare X5 烈焰槍128GB(雙通64G*2)D5-6000 CL34黑(F5-6000J3444F64GX2-FX5)</div>
+<div class=x>含稅：NT85000 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/397/1750123512/F5-6000J3444F64GX2-FX5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(138, this)' onclick="Buy('138')">Buy</font></div></span>
+
+<div class=w>qtupXyBSaXBqYXdzIFM1tUukYjMyR0IowvmzcTE2RyoyKUQ1LTYwMDAvQ0wzNrbCKCBGNS02MDAwSjM2MzZGMTZHWDItUlM1Syk=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskills5d5x2.jpg'><div class=t>芝奇 Ripjaws S5焰刃32GB(雙通16G*2)D5-6000/CL36黑( F5-6000J3636F16GX2-RS5K)</div>
+<div class=x>含稅：NT14500 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/378/1648538953/F5-5600J3636D32GX2-RS5K' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(139, this)' onclick="Buy('139')">Buy</font></div></span>
+
+<div class=w>qtupXyBSaXBqYXdzIFM1tUukYjMyR0IowvmzcTE2RyoyKUQ1LTYwMDAvQ0wzMLbCKEY1LTYwMDBKMzA0MEYxNkdYMi1SUzVLKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskills5d5x2.jpg'><div class=t>芝奇 Ripjaws S5焰刃32GB(雙通16G*2)D5-6000/CL30黑(F5-6000J3040F16GX2-RS5K)</div>
+<div class=x>含稅：NT14500 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/378/1649234797/F5-6000J3040F16GX2-RS5K' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(140, this)' onclick="Buy('140')">Buy</font></div></span>
+
+<div class=w>qtupXyBSaXBqYXdzIFM1tUukYjY0R0IowvmzcTMyRyoyKUQ1LTYwMDAvQzM2tsIoRjUtNjAwMEozNjM2RjMyR1gyLVJTNUsp</div>
+<span onclick='Show(this)'><img src='/eval/6/gskills5d5x2.jpg'><div class=t>芝奇 Ripjaws S5焰刃64GB(雙通32G*2)D5-6000/C36黑(F5-6000J3636F32GX2-RS5K)</div>
+<div class=x>含稅：NT29000 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/378/1649749474/F5-6000J3238G32GX2-RS5K' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(141, this)' onclick="Buy('141')">Buy</font></div></span>
+
+<div class=w>qtupXyBSaXBqYXdzIFM1tUukYjY0R0IowvmzcTMyRyoyKUQ1LTYwMDAvQ0wzMLbCKEY1LTYwMDBKMzA0MEczMkdYMi1SUzVLKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskills5d5x2.jpg'><div class=t>芝奇 Ripjaws S5焰刃64GB(雙通32G*2)D5-6000/CL30黑(F5-6000J3040G32GX2-RS5K)</div>
+<div class=x>含稅：NT29000 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/378/1649749474/F5-6000J3238G32GX2-RS5K' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(142, this)' onclick="Buy('142')">Buy</font></div></span>
+
+<div class=w>qtupXyBSaXBqYXdzIFM1tUukYjY0R0IowvmzcTMyRyoyKUQ1LTYwMDAvQ0wzMKXVKEY1LTYwMDBKMzA0MEczMkdYMi1SUzVXKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskills5d5x2w.jpg'><div class=t>芝奇 Ripjaws S5焰刃64GB(雙通32G*2)D5-6000/CL30白(F5-6000J3040G32GX2-RS5W)</div>
+<div class=x>含稅：NT29000 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/378/1649749474/F5-6000J3238G32GX2-RS5K' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(143, this)' onclick="Buy('143')">Buy</font></div></span>
+
+<div class=w>qtupXyBSaXBqYXdzTTUgUkdCtUukYjMyR0IoMTZHKjIpRDUtNjAwMC9DTDM2tsIoRjUtNjAwMEozNjM2RjE2R1gyLVJNNVJLKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskillm5rgb.jpg'><div class=t>芝奇 RipjawsM5 RGB焰刃32GB(16G*2)D5-6000/CL36黑(F5-6000J3636F16GX2-RM5RK)</div>
+<div class=x>含稅：NT15000 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/378/1684288195/F5-6000J3636F32GX2-RS5K' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(144, this)' onclick="Buy('144')">Buy</font></div></span>
+
+<div class=w>qtupXyBSaXBqYXdzTTUgUkdCtUukYjMyR0IoMTZHKjIpRDUtNjAwMC9DTDM2pdUoRjUtNjAwMEozNjM2RjE2R1gyLVJNNVJXKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskillm5rgbw.jpg'><div class=t>芝奇 RipjawsM5 RGB焰刃32GB(16G*2)D5-6000/CL36白(F5-6000J3636F16GX2-RM5RW)</div>
+<div class=x>含稅：NT15000 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/422/1725420318/F5-6000J3636F16GX2-RM5RW' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(145, this)' onclick="Buy('145')">Buy</font></div></span>
+
+<div class=w>qtupXyBSaXBqYXdzTTUgUkdCtUukYjMyR0IoMTZHKjIpRDUtNjAwMC9DTDMwtsIoRjUtNjAwMEozMDQwRjE2R1gyLVJNNVJLKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskillm5rgb.jpg'><div class=t>芝奇 RipjawsM5 RGB焰刃32GB(16G*2)D5-6000/CL30黑(F5-6000J3040F16GX2-RM5RK)</div>
+<div class=x>含稅：NT15500 &nbsp;&diams;<a href='https://www.gskill.com/tw/specification/203/422/1716886139/F5-6000J3040F16GX2-RM5RK-Specification' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(146, this)' onclick="Buy('146')">Buy</font></div></span>
+
+<div class=w>qtupXyCvULVLumpSR0IgNjRHQijC+bNxMzJHKjIpRDUtNjAwMC9DTDM2tsIoRjUtNjAwMEozNjM2RjMyR1gyLVJNNU5SSyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskillm5neorgb.jpg'><div class=t>芝奇 烈焰槍RGB 64GB(雙通32G*2)D5-6000/CL36黑(F5-6000J3636F32GX2-RM5NRK)</div>
+<div class=x>含稅：NT29300 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/429/1730883335/F5-6000J3636F32GX2-RM5NRK' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(147, this)' onclick="Buy('147')">Buy</font></div></span>
+
+<div class=w>qtupXyCvULVLumpSR0IgNjRHQijC+bNxMzJHKjIpRDUtNjAwMC9DTDM2pdUoRjUtNjAwMEozNjM2RjMyR1gyLVJNNU5SVyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskillm5neorgbw.jpg'><div class=t>芝奇 烈焰槍RGB 64GB(雙通32G*2)D5-6000/CL36白(F5-6000J3636F32GX2-RM5NRW)</div>
+<div class=x>含稅：NT29300 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/429/1730883390/F5-6000J3636F32GX2-RM5NRW' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(148, this)' onclick="Buy('148')">Buy</font></div></span>
+
+<div class=w>qtupXyCk275XtHVSR0IgMzJHQijC+bNxMTZHKjIpIEQ1LTYwMDAvQ0wzMLbCKCBGNS02MDAwSjMwNDBGMTZHWDItVFo1Uksp</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridentz5x2rgbb.jpg'><div class=t>芝奇 幻鋒戟RGB 32GB(雙通16G*2) D5-6000/CL30黑( F5-6000J3040F16GX2-TZ5RK)</div>
+<div class=x>含稅：NT14500 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/375/1649235161/F5-6000J3040F16GX2-TZ5RK' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(149, this)' onclick="Buy('149')">Buy</font></div></span>
+
+<div class=w>qtupXyCk275XtHVSR0IgMzJHQijC+bNxMTZHKjIpIEQ1LTY0MDAvQ0wzMrbCKCBGNS02NDAwSjMyMzlHMTZHWDItVFo1Uksp</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridentz5x2rgbb.jpg'><div class=t>芝奇 幻鋒戟RGB 32GB(雙通16G*2) D5-6400/CL32黑( F5-6400J3239G16GX2-TZ5RK)</div>
+<div class=x>含稅：NT18000 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/375/1642064699/F5-6400J3239G16GX2-TZ5RK' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(150, this)' onclick="Buy('150')">Buy</font></div></span>
+
+<div class=w>qtupXyCk275XtHVSR0IgMzJHQijC+bNxMTZHKjIpIEQ1LTY0MDAvQ0wzMqXVKCBGNS02NDAwSjMyMzlHMTZHWDItVFo1Ulcp</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridentz5rgbwd5x2.jpg'><div class=t>芝奇 幻鋒戟RGB 32GB(雙通16G*2) D5-6400/CL32白( F5-6400J3239G16GX2-TZ5RW)</div>
+<div class=x>含稅：NT18000 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/375/1642064699/F5-6400J3239G16GX2-TZ5RW' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(151, this)' onclick="Buy('151')">Buy</font></div></span>
+
+<div class=w>qtupXyCk275XtHVSR0IgMzJHQijC+bNxMTZHKjIpIEQ1LTcyMDAvQ0wzNLbCKEY1LTcyMDBKMzQ0NUcxNkdYMi1UWjVSSyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridentz5x2rgbb.jpg'><div class=t>芝奇 幻鋒戟RGB 32GB(雙通16G*2) D5-7200/CL34黑(F5-7200J3445G16GX2-TZ5RK)</div>
+<div class=x>含稅：NT19400 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/375/1665644656/F5-7200J3445G16GX2-TZ5RK' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(152, this)' onclick="Buy('152')">Buy</font></div></span>
+
+<div class=w>qtupXyCk275XtHVSR0IgMzJHQijC+bNxMTZHKjIpIEQ1LTcyMDAvQ0wzNKXVKEY1LTcyMDBKMzQ0NUcxNkdYMi1UWjVSVyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridentz5rgbwd5x2.jpg'><div class=t>芝奇 幻鋒戟RGB 32GB(雙通16G*2) D5-7200/CL34白(F5-7200J3445G16GX2-TZ5RW)</div>
+<div class=x>含稅：NT19400 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/375/1665644713/F5-7200J3445G16GX2-TZ5RS' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(153, this)' onclick="Buy('153')">Buy</font></div></span>
+
+<div class=w>qtupXyCk275XtHVSR0IgNjRHQijC+bNxMzJHKjIpIEQ1LTYwMDAvQ0wzMKXVKEY1LTYwMDBKMzA0MEczMkdYMi1UWjVSVyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridentz5rgbwd5x2.jpg'><div class=t>芝奇 幻鋒戟RGB 64GB(雙通32G*2) D5-6000/CL30白(F5-6000J3040G32GX2-TZ5RW)</div>
+<div class=x>含稅：NT29000 &nbsp;&diams;<a href='https://www.gskill.com/tw/specification/203/375/1688607694/F5-6000J3040G32GX2-TZ5RW-Specification' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(154, this)' onclick="Buy('154')">Buy</font></div></span>
+
+<div class=w>qtupXyCk275XtHVSR0IgNjRHQijC+bNxMzJHKjIpIEQ1LTY0MDAvQ0wzMrbCKEY1LTY0MDBKMzIzOUczMkdYMi1UWjVSSyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridentz5x2rgbb.jpg'><div class=t>芝奇 幻鋒戟RGB 64GB(雙通32G*2) D5-6400/CL32黑(F5-6400J3239G32GX2-TZ5RK)</div>
+<div class=x>含稅：NT33000 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/375/1665644504/F5-6400J3239G32GX2-TZ5RK' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(155, this)' onclick="Buy('155')">Buy</font></div></span>
+
+<div class=w>qtupXyCk275XtHVSR0IgNjRHQijC+bNxMzJHKjIpIEQ1LTY0MDAvQ0wzMqXVKEY1LTY0MDBKMzIzOUczMkdYMi1UWjVSVyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridentz5rgbwd5x2.jpg'><div class=t>芝奇 幻鋒戟RGB 64GB(雙通32G*2) D5-6400/CL32白(F5-6400J3239G32GX2-TZ5RW)</div>
+<div class=x>含稅：NT33000 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/375/1665644504/F5-6400J3239G32GX2-TZ5RW' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(156, this)' onclick="Buy('156')">Buy</font></div></span>
+
+<div class=w>qtupXyC1S75XtHVSR0IgMzJHQijC+bNxMTZHQioyKSBENS02MDAwL0NMMzC2wihGNS02MDAwSjMwMzhGMTZHWDItVFo1TlIp</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenz5rgbd5x2.jpg'><div class=t>芝奇 焰鋒戟RGB 32GB(雙通16GB*2) D5-6000/CL30黑(F5-6000J3038F16GX2-TZ5NR)</div>
+<div class=x>含稅：NT18200 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/391/1661410135/F5-6000J3038F16GX2-TZ5NR' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(157, this)' onclick="Buy('157')">Buy</font></div></span>
+
+<div class=w>qtupXyC1S75XtHVSR0IgNjRHQijC+bNxMzJHQioyKUQ1LTYwMDAvQ0wzMLbCKEY1LTYwMDBKMzA0MEczMkdYMi1UWjVOUik=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenz5rgbd5x2.jpg'><div class=t>芝奇 焰鋒戟RGB 64GB(雙通32GB*2)D5-6000/CL30黑(F5-6000J3040G32GX2-TZ5NR)</div>
+<div class=x>含稅：NT32000 &nbsp;&diams;<a href='https://www.gskill.com/tw/specification/203/391/1665020865/F5-6000J3040G32GX2-TZ5NR-Specification' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(158, this)' onclick="Buy('158')">Buy</font></div></span>
+
+<div class=w>qtupXyC1S75XtHVSR0IgNjRHQijC+bNxMzJHQioyKUQ1LTYwMDAvQ0wzMKXVKEY1LTYwMDBKMzA0MEczMkdYMi1UWjVOUlcp</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenz5rgbd5x2w.jpg'><div class=t>芝奇 焰鋒戟RGB 64GB(雙通32GB*2)D5-6000/CL30白(F5-6000J3040G32GX2-TZ5NRW)</div>
+<div class=x>含稅：NT32000 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/391/1665020865/F5-6000J3040G32GX2-TZ5NR' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(159, this)' onclick="Buy('159')">Buy</font></div></span>
+
+<div class=w>qtupXyC1S75XtHVSR0IgMzJHQijC+bNxMTZHQioyKUQ1LTY0MDAvQ0wzMLbCKEY1LTY0MDBKMzAzOUcxNkdYMi1UWjVOUik=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenz5rgbd5x2.jpg'><div class=t>芝奇 焰鋒戟RGB 32GB(雙通16GB*2)D5-6400/CL30黑(F5-6400J3039G16GX2-TZ5NR)</div>
+<div class=x>含稅：NT19800 &nbsp;&diams;<a href='https://www.gskill.com/tw/specification/203/391/1723430306/F5-6400J3039G16GX2-TZ5NR-Specification' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(160, this)' onclick="Buy('160')">Buy</font></div></span>
+
+<div class=w>qtupXyC1S75XtHVSR0IgMzJHQijC+bNxMTZHQioyKUQ1LTY0MDAvQ0wzMKXVKEY1LTY0MDBKMzAzOUcxNkdYMi1UWjVOUlcp</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenz5rgbd5x2w.jpg'><div class=t>芝奇 焰鋒戟RGB 32GB(雙通16GB*2)D5-6400/CL30白(F5-6400J3039G16GX2-TZ5NRW)</div>
+<div class=x>含稅：NT19800 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/391/1723430370/F5-6400J3039G16GX2-TZ5NRW' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(161, this)' onclick="Buy('161')">Buy</font></div></span>
+
+<div class=w>qtupXyC1S75XtHVSR0IgMzJHQijC+bNxMTZHQioyKUQ1LTcyMDAvQ0wzNLbCKEY1LTcyMDBKMzQ0NUcxNkdYMi1UWjVOUik=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenz5rgbd5x2.jpg'><div class=t>芝奇 焰鋒戟RGB 32GB(雙通16GB*2)D5-7200/CL34黑(F5-7200J3445G16GX2-TZ5NR)</div>
+<div class=x>含稅：NT19800 &nbsp;&diams;<a href='https://www.gskill.com/tw/specification/203/391/1723430566/F5-7200J3445G16GX2-TZ5NR-Specification' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(162, this)' onclick="Buy('162')">Buy</font></div></span>
+
+<div class=w>qtupXyC1S75XtHVSR0IgMTI4R0IowvmzcTY0R0IqMilENS02MDAwL0NMMzS2wihGNS02MDAwSjM0NDRGNjRHWDItVFo1TlIp</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenz5rgbd5x2.jpg'><div class=t>芝奇 焰鋒戟RGB 128GB(雙通64GB*2)D5-6000/CL34黑(F5-6000J3444F64GX2-TZ5NR)</div>
+<div class=x>含稅：NT78500 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/391/1750238051/F5-6000J3644D64GX4-TZ5NR' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(163, this)' onclick="Buy('163')">Buy</font></div></span>
+
+<div class=w>qtupXyCs065htHVSR0IgMzJHQijC+bNxMTZHQioyKUQ1LTYwMDAvQ0wyOKr3KEY1LTYwMDBKMjgzNkcxNkdYMi1UUjVORyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenr5rgbd5x2g.jpg'><div class=t>芝奇 皇家戟RGB 32GB(雙通16GB*2)D5-6000/CL28金(F5-6000J2836G16GX2-TR5NG)</div>
+<div class=x>含稅：NT21800 &nbsp;&diams;<a href='https://www.gskill.com/product/165/425/1723009555/F5-6000J2836G16GX2-TR5NG' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(164, this)' onclick="Buy('164')">Buy</font></div></span>
+
+<div class=w>qtupXyCs065htHVSR0IgNjRHQijC+bNxMzJHQioyKUQ1LTYwMDAvQ0wyOLvIKEY1LTYwMDBKMjgzNkczMkdYMi1UUjVOUyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenzroyald5x2s.jpg'><div class=t>芝奇 皇家戟RGB 64GB(雙通32GB*2)D5-6000/CL28銀(F5-6000J2836G32GX2-TR5NS)</div>
+<div class=x>含稅：NT38600 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/426/1731478018/F5-6000J3036G32GX2-TR5NS' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(165, this)' onclick="Buy('165')">Buy</font></div></span>
+
+<div class=w>qtupXyCs065htHVSR0IgNjRHQijC+bNxMzJHQioyKUQ1LTYwMDAvQ0wyOKr3KEY1LTYwMDBKMjgzNkczMkdYMi1UUjVORyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenr5rgbd5x2g.jpg'><div class=t>芝奇 皇家戟RGB 64GB(雙通32GB*2)D5-6000/CL28金(F5-6000J2836G32GX2-TR5NG)</div>
+<div class=x>含稅：NT39700 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/426/1751507184/F5-6000J2836G32GX2-TR5NG' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(166, this)' onclick="Buy('166')">Buy</font></div></span>
+
+<div class=w>qtupXyCs065htHVSR0IgMzJHQijC+bNxMTZHQioyKUQ1LTY0MDAvQ0wzMrvIKEY1LTY0MDBKMzIzOUcxNkdYMi1UUjVTKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenzroyald5x2s.jpg'><div class=t>芝奇 皇家戟RGB 32GB(雙通16GB*2)D5-6400/CL32銀(F5-6400J3239G16GX2-TR5S)</div>
+<div class=x>含稅：NT18800 &nbsp;&diams;<a href='https://www.gskill.com/product/165/418/1716793805/F5-6400J3239G16GX2-TR5S' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(167, this)' onclick="Buy('167')">Buy</font></div></span>
+
+<div class=w>qtupXyCs065htHVSR0IgMzJHQijC+bNxMTZHQioyKUQ1LTY0MDAvQ0wzMLvIKEY1LTY0MDBKMzAzOUcxNkdYMi1UUjVOUyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenr5rgbd5x2s.jpg'><div class=t>芝奇 皇家戟RGB 32GB(雙通16GB*2)D5-6400/CL30銀(F5-6400J3039G16GX2-TR5NS)</div>
+<div class=x>含稅：NT19900 &nbsp;&diams;<a href='https://www.gskill.com/cn/product/204/427/1723429792/F5-6400J3039G16GX2-TR5NS' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(168, this)' onclick="Buy('168')">Buy</font></div></span>
+
+<div class=w>qtupXyCs065htHVSR0IgMzJHQijC+bNxMTZHQioyKUQ1LTY0MDAvQ0wzMKr3KEY1LTY0MDBKMzAzOUcxNkdYMi1UUjVORyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenr5rgbd5x2g.jpg'><div class=t>芝奇 皇家戟RGB 32GB(雙通16GB*2)D5-6400/CL30金(F5-6400J3039G16GX2-TR5NG)</div>
+<div class=x>含稅：NT21000 &nbsp;&diams;<a href='https://www.gskill.com/cn/qvl/204/427/1723429682/F5-6400J3039G16GX2-TR5NG-QVL' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(169, this)' onclick="Buy('169')">Buy</font></div></span>
+
+<div class=w>qtupXyCs065htHVSR0IgMzJHQijC+bNxMTZHQioyKUQ1LTcyMDAvQ0wzNLvIKEY1LTcyMDBKMzQ0NUcxNkdYMi1UUjVTKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenzroyald5x2s.jpg'><div class=t>芝奇 皇家戟RGB 32GB(雙通16GB*2)D5-7200/CL34銀(F5-7200J3445G16GX2-TR5S)</div>
+<div class=x>含稅：NT19900 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/419/1716793748/F5-7200J3445G16GX2-TR5S' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(170, this)' onclick="Buy('170')">Buy</font></div></span>
+
+<div class=w>qtupXyCs065htHVSR0IgMzJHQijC+bNxMTZHQioyKUQ1LTcyMDAvQ0wzNKr3KEY1LTcyMDBKMzQ0NUcxNkdYMi1UUjVHKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenzroyald5x2g.jpg'><div class=t>芝奇 皇家戟RGB 32GB(雙通16GB*2)D5-7200/CL34金(F5-7200J3445G16GX2-TR5G)</div>
+<div class=x>含稅：NT19900 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/419/1718270059/F5-7200J3445G16GX2-TR5G' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(171, this)' onclick="Buy('171')">Buy</font></div></span>
+
+<div class=w>qtupXyCs065htHVSR0IgMzJHQijC+bNxMTZHQioyKUQ1LTgwMDAvQ0wzOLvIKEY1LTgwMDBKMzg0OEgxNkdYMi1UUjVOUyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenr5rgbd5x2s.jpg'><div class=t>芝奇 皇家戟RGB 32GB(雙通16GB*2)D5-8000/CL38銀(F5-8000J3848H16GX2-TR5NS)</div>
+<div class=x>含稅：NT21000 &nbsp;&diams;<a href='https://www.gskill.com/cn/specification/204/427/1723080757/F5-8000J3848H16GX2-TR5NS-Specification' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(172, this)' onclick="Buy('172')">Buy</font></div></span>
+
+<div class=w>qtupXyCs065htHVSR0IgNjRHQijC+bNxMzJHQioyKUQ1LTY0MDAvQ0wzMrvIKEY1LTY0MDBKMzIzOUczMkdYMi1UUjVTKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenzroyald5x2s.jpg'><div class=t>芝奇 皇家戟RGB 64GB(雙通32GB*2)D5-6400/CL32銀(F5-6400J3239G32GX2-TR5S)</div>
+<div class=x>含稅：NT38500 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/419/1716793871/F5-6400J3239G32GX2-TR5S' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(173, this)' onclick="Buy('173')">Buy</font></div></span>
+
+<div class=w>Qml3aW4gT3BhbCBEVzEwMCBPQyBMYWLBcKZXtNpSR0IgMTkyRygiwvmzcSKlfK7aNDhHKjQpRDUgNjAwMLbCL0NMMjggQU1EILZXwFfAdaTG</div>
+<span onclick='Show(this)'><img src='/eval/6/biwindw100oclab.jpg'><div class=t>Biwin Opal DW100 OC Lab聯名款RGB 192G("雙通"四根48G*4)D5 6000黑/CL28 AMD 超頻優化</div>
+<div class=x>含稅：NT71990 &nbsp;&diams;<a href='https://s.shopee.tw/1BAV89LSf2' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(174, this)' onclick="Buy('174')">Buy</font></div></span>
+
+<div class=w>qtupX0ZsYXJlIFg1IK9QtUu6ajI1NkdCKCLC+bNxIqV8rto2NEcqNClENS02MDAwIENMMzS2wihGNS02MDAwSjM0NDRGNjRHWDQtRlg1KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskillflarex5d5x4.jpg'><div class=t>芝奇Flare X5 烈焰槍256GB("雙通"四根64G*4)D5-6000 CL34黑(F5-6000J3444F64GX4-FX5)</div>
+<div class=x>含稅：NT156500 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/397/1750729447/F5-6000J3444F64GX4-FX5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(175, this)' onclick="Buy('175')">Buy</font></div></span>
+
+<div class=w>VU1BWCBOQiAxNkdCIEREUjUgNDgwMC9DTDQw</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxnbddr5.jpg'><div class=t>UMAX NB 16GB DDR5 4800/CL40</div>
+<div class=x>含稅：NT5700 &nbsp;&diams;<a href='http://www.umax.com.tw/cwebsite/default.asp' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(176, this)' onclick="Buy('176')">Buy</font></div></span>
+
+<div class=w>VU1BWCBOQiAzMkdCIEREUjUgNDgwMC9DTDQw</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxnbddr5.jpg'><div class=t>UMAX NB 32GB DDR5 4800/CL40</div>
+<div class=x>含稅：NT9999 &nbsp;&diams;<a href='http://www.umax.com.tw/cwebsite/default.asp' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(177, this)' onclick="Buy('177')">Buy</font></div></span>
+
+<div class=w>VU1BWCBOQiA4R0IgRERSNSA1NjAwL0NMNDY=</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxnbddr5.jpg'><div class=t>UMAX NB 8GB DDR5 5600/CL46</div>
+<div class=x>含稅：NT3399 &nbsp;&diams;<a href='http://www.umax.com.tw/cwebsite/default.asp' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(178, this)' onclick="Buy('178')">Buy</font></div></span>
+
+<div class=w>VU1BWCBOQiAxNkdCIEREUjUgNTYwMC9DTDQ2</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxnbddr5.jpg'><div class=t>UMAX NB 16GB DDR5 5600/CL46</div>
+<div class=x>含稅：NT6100 &nbsp;&diams;<a href='http://www.umax.com.tw/cwebsite/default.asp' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(179, this)' onclick="Buy('179')">Buy</font></div></span>
+
+<div class=w>VU1BWCBOQiAzMkdCIEREUjUgNTYwMC9DTDQ2</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxnbddr5.jpg'><div class=t>UMAX NB 32GB DDR5 5600/CL46</div>
+<div class=x>含稅：NT11900 &nbsp;&diams;<a href='http://www.umax.com.tw/cwebsite/default.asp' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(180, this)' onclick="Buy('180')">Buy</font></div></span>
+
+<div class=w>q8Kt6CBOQiAzMkdCIEREUjUtNDgwMC9DTDQwIChBRDVTNDgwMDMyRy1TKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/adatanbd5.jpg'><div class=t>威剛 NB 32GB DDR5-4800/CL40 (AD5S480032G-S)</div>
+<div class=x>含稅：NT9699 &nbsp;&diams;<a href='https://www.adata.com/tw/consumer/category/computer-memory/dram-module-ddr5-4800-so-dimm/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(181, this)' onclick="Buy('181')">Buy</font></div></span>
+
+<div class=w>q8Kt6CBOQiA4R0IgRERSNS01NjAwL0NMNDYgKEFENVM1NjAwOEctUyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/adatanbd5.jpg'><div class=t>威剛 NB 8GB DDR5-5600/CL46 (AD5S56008G-S)</div>
+<div class=x>含稅：NT3799 &nbsp;&diams;<a href='https://www.adata.com/tw/consumer/category/computer-memory/dram-module-ddr5-4800-so-dimm/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(182, this)' onclick="Buy('182')">Buy</font></div></span>
+
+<div class=w>q8Kt6CBOQiAxNkdCIEREUjUtNTYwMC9DTDQ2IChBRDVTNTYwMDE2Ry1TKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/adatanbd5.jpg'><div class=t>威剛 NB 16GB DDR5-5600/CL46 (AD5S560016G-S)</div>
+<div class=x>含稅：NT6299 &nbsp;&diams;<a href='https://www.adata.com/tw/consumer/category/computer-memory/dram-module-ddr5-4800-so-dimm/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(183, this)' onclick="Buy('183')">Buy</font></div></span>
+
+<div class=w>q8Kt6CBOQiAzMkdCIEREUjUtNTYwMC9DTDQ2IChBRDVTNTYwMDMyRy1TKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/adatanbd5.jpg'><div class=t>威剛 NB 32GB DDR5-5600/CL46 (AD5S560032G-S)</div>
+<div class=x>含稅：NT12599 &nbsp;&diams;<a href='https://www.adata.com/tw/consumer/category/computer-memory/dram-module-ddr5-4800-so-dimm/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(184, this)' onclick="Buy('184')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IE5CIDE2R0IgRERSNSA1NjAwKEtWUjU2UzQ2QlM4LTE2KS9DTDQ2</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstonnb16g.jpg'><div class=t>金士頓 NB 16GB DDR5 5600(KVR56S46BS8-16)/CL46</div>
+<div class=x>含稅：NT7300 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/client/ddr5-5600mts-non_ecc-unbuffered-sodimm' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(185, this)' onclick="Buy('185')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IE5CIDMyR0IgRERSNSA1NjAwKEtWUjU2UzQ2QkQ4LTMyKS9DTDQ2</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstonnb32g.jpg'><div class=t>金士頓 NB 32GB DDR5 5600(KVR56S46BD8-32)/CL46</div>
+<div class=x>含稅：NT14700 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/client/ddr5-5600mts-non_ecc-unbuffered-sodimm' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(186, this)' onclick="Buy('186')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCBOQiAxNkdCIEREUjUgNTYwMC9DTDQ2</div>
+<span onclick='Show(this)'><img src='/eval/6/microcrucialnbd5.jpg'><div class=t>美光 Micron Crucial NB 16GB DDR5 5600/CL46</div>
+<div class=x>含稅：NT6399 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/CT16G56C46S5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(187, this)' onclick="Buy('187')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCBOQiAzMkdCIEREUjUgNTYwMC9DTDQ2</div>
+<span onclick='Show(this)'><img src='/eval/6/microcrucialnbd5.jpg'><div class=t>美光 Micron Crucial NB 32GB DDR5 5600/CL46</div>
+<div class=x>含稅：NT12799 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/CT32G52C42S5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(188, this)' onclick="Buy('188')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCBOQiA2NEdCIEREUjUgNTYwMC9DTDQ2KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/microcrucialnbd5.jpg'><div class=t>美光 Micron Crucial NB 64GB DDR5 5600/CL46)</div>
+<div class=x>含稅：NT23999 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/CT32G52C42S5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(189, this)' onclick="Buy('189')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCBOQiDC+bNxMTZHKjIgRERSNSA1NjAwL0NMNDY=</div>
+<span onclick='Show(this)'><img src='/eval/6/microcrucialnbd5.jpg'><div class=t>美光 Micron Crucial NB 雙通16G*2 DDR5 5600/CL46</div>
+<div class=x>含稅：NT11400 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/CT2K16G56C46S5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(190, this)' onclick="Buy('190')">Buy</font></div></span>
+
+<div class=w>rPyl+iBNaWNyb24gQ3J1Y2lhbCBOQiDC+bNxNjRHKjIgRERSNSA1NjAwL0NMNDY=</div>
+<span onclick='Show(this)'><img src='/eval/6/microcrucialnbd5.jpg'><div class=t>美光 Micron Crucial NB 雙通64G*2 DDR5 5600/CL46</div>
+<div class=x>含稅：NT41999 &nbsp;&diams;<a href='https://www.crucial.tw/memory/ddr5/CT2K16G56C46S5' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(191, this)' onclick="Buy('191')">Buy</font></div></span>
+
+<div class=w>VU1BWCA4R0IgRERSNC0yNDAwKDEwMjQqOCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/umax8gd42400.jpg'><div class=t>UMAX 8GB DDR4-2400(1024*8)</div>
+<div class=x>含稅：NT1950 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=759PFMJTFIVBCBM' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(192, this)' onclick="Buy('192')">Buy</font></div></span>
+
+<div class=w>VU1BWCA4R0IgRERSNC0yNjY2reylzcH7ssm7cygxMDI0Kjgp</div>
+<span onclick='Show(this)'><img src='/eval/6/umax8gd42666.jpg'><div class=t>UMAX 8GB DDR4-2666原生顆粒製(1024*8)</div>
+<div class=x>含稅：NT1980 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=75EAWDB2J5B8AH1' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(193, this)' onclick="Buy('193')">Buy</font></div></span>
+
+<div class=w>VU1BWCA4R0IgRERSNC0zMjAwKDEwMjQqOCm2V8BXQ0wxNg==</div>
+<span onclick='Show(this)'><img src='/eval/6/umax8gd43200.jpg'><div class=t>UMAX 8GB DDR4-3200(1024*8)超頻CL16</div>
+<div class=x>含稅：NT1990 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=75NJASTL42XJZ14' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(194, this)' onclick="Buy('194')">Buy</font></div></span>
+
+<div class=w>VU1BWCAxNkdCIEREUjQtMjQwMCgxMDI0Kjgp</div>
+<span onclick='Show(this)'><img src='/eval/6/umax16gd42400.jpg'><div class=t>UMAX 16GB DDR4-2400(1024*8)</div>
+<div class=x>含稅：NT3900 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=759PFMK1TC1JDW1' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(195, this)' onclick="Buy('195')">Buy</font></div></span>
+
+<div class=w>VU1BWCAxNkdCIEREUjQtMjY2Nq3spc3B+7LJu3MoMTAyNCo4KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/umax16gd42666.jpg'><div class=t>UMAX 16GB DDR4-2666原生顆粒製(1024*8)</div>
+<div class=x>含稅：NT3900 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=75EAWDEHCLNKXHN' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(196, this)' onclick="Buy('196')">Buy</font></div></span>
+
+<div class=w>VU1BWCAxNkdCIEREUjQtMjY2Nq3spc3B+7LJu3MoMjA0OCo4KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/umax16gd42666.jpg'><div class=t>UMAX 16GB DDR4-2666原生顆粒製(2048*8)</div>
+<div class=x>含稅：NT3900 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=75WHHVOAO5NQJHP' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(197, this)' onclick="Buy('197')">Buy</font></div></span>
+
+<div class=w>VU1BWCAxNkdCIEREUjQtMzIwMCgxMDI0KjgptlfAV0NMMTY=</div>
+<span onclick='Show(this)'><img src='/eval/6/umax16gd43200.jpg'><div class=t>UMAX 16GB DDR4-3200(1024*8)超頻CL16</div>
+<div class=x>含稅：NT3900 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=75NJASTKX2IVYMG' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(198, this)' onclick="Buy('198')">Buy</font></div></span>
+
+<div class=w>VU1BWCAxNkdCIEREUjQtMzIwMK3spc3B+7LJu3MoMjA0OCo4KbZXwFdDTDE2</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxd43200.jpg'><div class=t>UMAX 16GB DDR4-3200原生顆粒製(2048*8)超頻CL16</div>
+<div class=x>含稅：NT3950 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=75WHHVO8GHFUV9T' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(199, this)' onclick="Buy('199')">Buy</font></div></span>
+
+<div class=w>VU1BWCAzMkdCIEREUjQtMzIwMK3spc3B+7LJu3MoMjA0OCo4KbZXwFdDTDIy</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxd43200.jpg'><div class=t>UMAX 32GB DDR4-3200原生顆粒製(2048*8)超頻CL22</div>
+<div class=x>含稅：NT8500 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=75WHHVO63UEZ98Y' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(200, this)' onclick="Buy('200')">Buy</font></div></span>
+
+<div class=w>VU1BWCAzMkdCIEREUjQtMzIwMK3spc3B+7LJu3MoMjA0OCo4KbZXwFdDTDE2</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxd43200.jpg'><div class=t>UMAX 32GB DDR4-3200原生顆粒製(2048*8)超頻CL16</div>
+<div class=x>含稅：NT8500 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=75WHHVO8GHFUV9T' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(201, this)' onclick="Buy('201')">Buy</font></div></span>
+
+<div class=w>q8Kt6CA4R0IgRERSNC0zMjAwKEFENFUzMjAwMzhHMjItU0dOKSgxMDI0Kjgp</div>
+<span onclick='Show(this)'><img src='/eval/6/adataram.jpg'><div class=t>威剛 8GB DDR4-3200(AD4U320038G22-SGN)(1024*8)</div>
+<div class=x>含稅：NT2299 &nbsp;&diams;<a href='https://www.adata.com/tw/consumer/category/computer-memory/655/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(202, this)' onclick="Buy('202')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAxNkdCIEREUjQtMzIwMChBRDRVMzIwMDMxNkcyMi1TR04pKDEwMjQqOCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/adataram.jpg'><div class=t>威剛 16GB DDR4-3200(AD4U3200316G22-SGN)(1024*8)</div>
+<div class=x>含稅：NT4599 &nbsp;&diams;<a href='https://www.adata.com/tw/consumer/category/computer-memory/655/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(203, this)' onclick="Buy('203')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAxNkdCIEREUjQtMzIwMC9DTDE2IFhQRyBEMTC2V8BXILbCKEFYNFUzMjAwMzE2RzE2QS1TQjEwKSgxMDI0Kjgp</div>
+<span onclick='Show(this)'><img src='/eval/6/adataxpgd10.jpg'><div class=t>威剛 16GB DDR4-3200/CL16 XPG D10超頻 黑(AX4U3200316G16A-SB10)(1024*8)</div>
+<div class=x>含稅：NT4699 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/486' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(204, this)' onclick="Buy('204')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkdCIEREUjQtMzIwMChBRDRVMzIwMDczMkcyMi1TR04pKDIwNDgqOCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/adataram.jpg'><div class=t>威剛 32GB DDR4-3200(AD4U3200732G22-SGN)(2048*8)</div>
+<div class=x>含稅：NT8999 &nbsp;&diams;<a href='https://www.adata.com/tw/consumer/category/computer-memory/655/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(205, this)' onclick="Buy('205')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDhHQiBERFI0LTMyMDAgRlVSWSBCZWFzdCjDfsJ5qswpKEtGNDMyQzE2QkIvOCkoMTAyNCo4KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstonfurybeast.jpg'><div class=t>金士頓 8GB DDR4-3200 FURY Beast(獸獵者)(KF432C16BB/8)(1024*8)</div>
+<div class=x>含稅：NT2550 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr4-memory?speed=3200mt%2Fs&total%20(kit)%20capacity=8gb&kit=single%20module&dram%20density=8gbit' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(206, this)' onclick="Buy('206')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDE2R0IgRERSNC0zMjAwKEtWUjMyTjIyUzgvMTYpKDIwNDgqOCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstiond4.jpg'><div class=t>金士頓 16GB DDR4-3200(KVR32N22S8/16)(2048*8)</div>
+<div class=x>含稅：NT4700 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/client/ddr4-3200mts-non_ecc-unbuffered-dimm' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(207, this)' onclick="Buy('207')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDE2R0IgRERSNC0zMjAwIEZVUlkgQmVhc3Qow37CearMKShLRjQzMkMxNkJCLzE2KSgyMDQ4Kjgp</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstonfurybeast.jpg'><div class=t>金士頓 16GB DDR4-3200 FURY Beast(獸獵者)(KF432C16BB/16)(2048*8)</div>
+<div class=x>含稅：NT4800 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr4-memory?speed=3200mt%2Fs&total%20(kit)%20capacity=16gb&kit=single%20module&dram%20density=16gbit' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(208, this)' onclick="Buy('208')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDMyR0IgRERSNC0zMjAwKEtWUjMyTjIyRDgvMzIpKDIwNDgqOCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstiond4.jpg'><div class=t>金士頓 32GB DDR4-3200(KVR32N22D8/32)(2048*8)</div>
+<div class=x>含稅：NT12000 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/client/ddr4-3200mts-non_ecc-unbuffered-dimm' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(209, this)' onclick="Buy('209')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDMyR0IgRERSNC0zMjAwKEtWUjMyTjIyRDgvMzIpKDIwNDgqOCl+t2a+97v5fg==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstiond4.jpg'><div class=t>金士頓 32GB DDR4-3200(KVR32N22D8/32)(2048*8)~搭機價~</div>
+<div class=x>含稅：NT9999 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/client/ddr4-3200mts-non_ecc-unbuffered-dimm' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(210, this)' onclick="Buy('210')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDMyR0IgRERSNC0zMjAwIEZVUlkgQmVhc3Qow37CearMKShLRjQzMkMxNkJCLzMyKSgyMDQ4Kjgp</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstonfurybeast.jpg'><div class=t>金士頓 32GB DDR4-3200 FURY Beast(獸獵者)(KF432C16BB/32)(2048*8)</div>
+<div class=x>含稅：NT9400 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr4-memory?speed=3200mt%2Fs&total%20(kit)%20capacity=32gb&kit=single%20module&dram%20density=16gbit' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(211, this)' onclick="Buy('211')">Buy</font></div></span>
+
+<div class=w>VU1BWCAzMkdCKML5s3ExNkdCKjIpIEREUjQtMjY2Nq3spc3B+7LJu3Mtp3S0srz2pPkoMTAyNCo4KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/umax16gx2d42666.jpg'><div class=t>UMAX 32GB(雙通16GB*2) DDR4-2666原生顆粒製-含散熱片(1024*8)</div>
+<div class=x>含稅：NT7100 &nbsp;&diams;<a href='https://s.shopee.tw/40PXLfTkV3' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(212, this)' onclick="Buy('212')">Buy</font></div></span>
+
+<div class=w>VU1BWCAzMkdCKML5s3ExNkdCKjIpIEREUjQtMjY2Nq3spc3B+7LJu3Mtp3S0srz2pPkoMjA0OCo4KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/umax16gx2d42666.jpg'><div class=t>UMAX 32GB(雙通16GB*2) DDR4-2666原生顆粒製-含散熱片(2048*8)</div>
+<div class=x>含稅：NT7100 &nbsp;&diams;<a href='https://s.shopee.tw/tOaWqiav' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(213, this)' onclick="Buy('213')">Buy</font></div></span>
+
+<div class=w>VU1BWCAzMkdCKML5s3ExNkdCKjIpIEREUjQtMzIwMK3spc3B+7LJLbZXwFdDTDE2p3S0srz2pPkoMTAyNCo4KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/umax16x2d43200.jpg'><div class=t>UMAX 32GB(雙通16GB*2) DDR4-3200原生顆粒-超頻CL16含散熱片(1024*8)</div>
+<div class=x>含稅：NT7150 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=75NJASTL2LAIIE3' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(214, this)' onclick="Buy('214')">Buy</font></div></span>
+
+<div class=w>VU1BWCAzMkdCKML5s3ExNkdCKjIpIEREUjQtMzIwMK3spc3B+7LJLbZXwFdDTDE2p3S0srz2pPkoMjA0OCo4KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/umax16x2d43200.jpg'><div class=t>UMAX 32GB(雙通16GB*2) DDR4-3200原生顆粒-超頻CL16含散熱片(2048*8)</div>
+<div class=x>含稅：NT7150 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=75WHHVNXWW75TAQ' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(215, this)' onclick="Buy('215')">Buy</font></div></span>
+
+<div class=w>VU1BWCA2NEdCKML5s3EzMkdCKjIpIEREUjQtMzIwMK3spc3B+7LJLbZXwFdDTDIyp3S0srz2pPkoMjA0OCo4KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/umax16x2d43200.jpg'><div class=t>UMAX 64GB(雙通32GB*2) DDR4-3200原生顆粒-超頻CL22含散熱片(2048*8)</div>
+<div class=x>含稅：NT17300 &nbsp;&diams;<a href='https://s.shopee.tw/5KuuwffBeY' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(216, this)' onclick="Buy('216')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkdCKML5s3ExNkcqMikgRDQtMzIwMC9DTDE2IEQxMLZXwFcgtsIoQVg0VTMyMDAzMTZHMTZBLURCMTApKDEwMjQqOCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/xpgd10x2.jpg'><div class=t>威剛 32GB(雙通16G*2) D4-3200/CL16 D10超頻 黑(AX4U3200316G16A-DB10)(1024*8)</div>
+<div class=x>含稅：NT7199 &nbsp;&diams;<a href='https://www.xpg.com/tw/xpg/486' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(217, this)' onclick="Buy('217')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkdCKML5s3ExNkcqMikgRDQtMzIwMC9DTDE2IEQ1MCBSR0IgpscoQVg0VTMyMDA3MTZHMTZBLURUNTApKDIwNDgqOCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/xpgd50rgbx2.jpg'><div class=t>威剛 32GB(雙通16G*2) D4-3200/CL16 D50 RGB 灰(AX4U3200716G16A-DT50)(2048*8)</div>
+<div class=x>含稅：NT7299 &nbsp;&diams;<a href='https://www.coolpc.com.tw/tw/shop/dram/xpg-spectrix-d50-ddr4-white/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(218, this)' onclick="Buy('218')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkdCKML5s3ExNkcqMikgRDQtMzIwMC9DTDE2IEQ1MCBSR0IgpdUoQVg0VTMyMDA3MTZHMTZBRFc1MCkoMjA0OCo4KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/xpgd50rgbx2w.jpg'><div class=t>威剛 32GB(雙通16G*2) D4-3200/CL16 D50 RGB 白(AX4U3200716G16ADW50)(2048*8)</div>
+<div class=x>含稅：NT7299 &nbsp;&diams;<a href='https://www.coolpc.com.tw/tw/shop/dram/xpg-spectrix-d50-ddr4-white/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(219, this)' onclick="Buy('219')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkdCKML5s3ExNkcqMikgRDQtMzYwMC9DTDE4IEQ1MCBSR0IgpscoQVg0VTM2MDA3MTZHMThJLURUNTApKDIwNDgqOCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/xpgd50rgbx2.jpg'><div class=t>威剛 32GB(雙通16G*2) D4-3600/CL18 D50 RGB 灰(AX4U3600716G18I-DT50)(2048*8)</div>
+<div class=x>含稅：NT7599 &nbsp;&diams;<a href='https://www.coolpc.com.tw/tw/shop/dram/xpg-spectrix-d50-ddr4-white/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(220, this)' onclick="Buy('220')">Buy</font></div></span>
+
+<div class=w>q8Kt6CAzMkdCKML5s3ExNkcqMikgRDQtMzYwMC9DTDE4IEQ1MCBSR0IgpdUoQVg0VTM2MDA3MTZHMThJLURXNTApKDIwNDgqOCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/xpgd50rgbx2w.jpg'><div class=t>威剛 32GB(雙通16G*2) D4-3600/CL18 D50 RGB 白(AX4U3600716G18I-DW50)(2048*8)</div>
+<div class=x>含稅：NT7599 &nbsp;&diams;<a href='https://www.coolpc.com.tw/tw/shop/dram/xpg-spectrix-d50-ddr4-white/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(221, this)' onclick="Buy('221')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDE2R0IowvmzcThHQioyKSBERFI0LTMyMDAgRlVSWSBCZWFzdCjDfsJ5KShLRjQzMkMxNkJCSzIvMTYp</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstonfurybeast2.jpg'><div class=t>金士頓 16GB(雙通8GB*2) DDR4-3200 FURY Beast(獸獵)(KF432C16BBK2/16)</div>
+<div class=x>含稅：NT6500 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr4-memory?speed=3200mt%2Fs&total%20(kit)%20capacity=16gb&kit=kit%20of%202&dram%20density=8gbit' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(222, this)' onclick="Buy('222')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDE2R0IowvmzcThHQioyKSBERFI0LTMyMDAgRlVSWSBCZWFzdCjDfsJ5KShLRjQzMkMxNkJCSzIvMTYpfrdmvve7+X4=</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstonfurybeast2.jpg'><div class=t>金士頓 16GB(雙通8GB*2) DDR4-3200 FURY Beast(獸獵)(KF432C16BBK2/16)~搭機價~</div>
+<div class=x>含稅：NT5100 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr4-memory?speed=3200mt%2Fs&total%20(kit)%20capacity=16gb&kit=kit%20of%202&dram%20density=8gbit' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(223, this)' onclick="Buy('223')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IDMyR0IowvmzcTE2R0IqMikgRERSNC0zMjAwICjDfsJ5qswpKEtGNDMyQzE2QkJLMi8zMikoMjA0OCo4KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstonfurybeast2.jpg'><div class=t>金士頓 32GB(雙通16GB*2) DDR4-3200 (獸獵者)(KF432C16BBK2/32)(2048*8)</div>
+<div class=x>含稅：NT9350 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/gaming/kingston-fury-beast-ddr4-memory?speed=3200mt%2Fs&total%20(kit)%20capacity=32gb&kit=kit%20of%202&dram%20density=16gbit' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(224, this)' onclick="Buy('224')">Buy</font></div></span>
+
+<div class=w>qtupXyBHLlNLSUxMIFJpcGphd3MgViAzMkdCKML5s3ExNkdCKjIpIEQ0LTM2MDAgQ0wxOCC2wiBGNC0zNjAwQzE4RC0zMkdWSw==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskillripjawsvkx2.jpg'><div class=t>芝奇 G.SKILL Ripjaws V 32GB(雙通16GB*2) D4-3600 CL18 黑 F4-3600C18D-32GVK</div>
+<div class=x>含稅：NT8700 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/217/1562833535/F4-3600C18D-32GVK' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(225, this)' onclick="Buy('225')">Buy</font></div></span>
+
+<div class=w>qtupXyBHLlNLSUxMIFJpcGphd3MgViAzMkdCKML5s3ExNkdCKjIpIEQ0LTQwMDAgQ0wxOCC2wiBGNC00MDAwQzE4RC0zMkdWSw==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskillripjawsvkx2.jpg'><div class=t>芝奇 G.SKILL Ripjaws V 32GB(雙通16GB*2) D4-4000 CL18 黑 F4-4000C18D-32GVK</div>
+<div class=x>含稅：NT8800 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/217/1608538914/F4-4000C18D-32GVK' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(226, this)' onclick="Buy('226')">Buy</font></div></span>
+
+<div class=w>qtupXyBHLlNLSUxMIKTbpfq0dSAxNkdCKML5s3E4R0IqMikgRDQtMzIwMCBDTDE2ILbCu8ggRjQtMzIwMEMxNkQtMTZHVFpS</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridentzd4x2.jpg'><div class=t>芝奇 G.SKILL 幻光戟 16GB(雙通8GB*2) D4-3200 CL16 黑銀 F4-3200C16D-16GTZR</div>
+<div class=x>含稅：NT4990 &nbsp;&diams;<a href='/phpBB2/viewtopic.php?f=75&t=236194' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(227, this)' onclick="Buy('227')">Buy</font></div></span>
+
+<div class=w>qtupXyBHLlNLSUxMIKTbpfq0dSAzMkdCKML5s3ExNkdCKjIpIEQ0LTMyMDAgQ0wxNiC2wrvIIEY0LTMyMDBDMTZELTMyR1RaUg==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridentzd4x2.jpg'><div class=t>芝奇 G.SKILL 幻光戟 32GB(雙通16GB*2) D4-3200 CL16 黑銀 F4-3200C16D-32GTZR</div>
+<div class=x>含稅：NT9190 &nbsp;&diams;<a href='/phpBB2/viewtopic.php?f=75&t=236194' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(228, this)' onclick="Buy('228')">Buy</font></div></span>
+
+<div class=w>qtupXyBHLlNLSUxMIKTbpfq0dSAzMkdCKML5s3ExNkdCKjIpIEQ0LTM2MDAgQ0wxNiC2wrvIIEY0LTM2MDBDMTZELTMyR1RaUkM=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridentzd4x2.jpg'><div class=t>芝奇 G.SKILL 幻光戟 32GB(雙通16GB*2) D4-3600 CL16 黑銀 F4-3600C16D-32GTZRC</div>
+<div class=x>含稅：NT9890 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/205/1562743478/F4-3600C16D-32GTZRC' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(229, this)' onclick="Buy('229')">Buy</font></div></span>
+
+<div class=w>qtupXyBHLlNLSUxMIKzTrmG0dSAzMkdCKML5s3ExNkdCKjIpIEQ0LTMyMDAgQ0wxNiC7yCBGNC0zMjAwQzE2RC0zMkdUUlM=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridentzroyals.jpg'><div class=t>芝奇 G.SKILL 皇家戟 32GB(雙通16GB*2) D4-3200 CL16 銀 F4-3200C16D-32GTRS</div>
+<div class=x>含稅：NT9990 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/300/1552463037/F4-3200C16D-32GTRS' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(230, this)' onclick="Buy('230')">Buy</font></div></span>
+
+<div class=w>qtupXyBHLlNLSUxMILVLpfq0dSAzMkdCKML5s3ExNkdCKjIpIEQ0LTMyMDAgRjQtMzIwMEMxNkQtMzJHVFpOW0ZvciBBTURd</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenzneox2.jpg'><div class=t>芝奇 G.SKILL 焰光戟 32GB(雙通16GB*2) D4-3200 F4-3200C16D-32GTZN[For AMD]</div>
+<div class=x>含稅：NT9290 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/327/1562838932/F4-3200C16D-32GTZN' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(231, this)' onclick="Buy('231')">Buy</font></div></span>
+
+<div class=w>qtupXyBHLlNLSUxMILVLpfq0dSAzMkdCKML5s3ExNkdCKjIpIEQ0LTM2MDAgRjQtMzYwMEMxNkQtMzJHVFpOQ1tGb3IgQU1EXQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenzneox2.jpg'><div class=t>芝奇 G.SKILL 焰光戟 32GB(雙通16GB*2) D4-3600 F4-3600C16D-32GTZNC[For AMD]</div>
+<div class=x>含稅：NT9890 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/327/1562840211/F4-3600C16D-32GTZNC' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(232, this)' onclick="Buy('232')">Buy</font></div></span>
+
+<div class=w>qtupXyBHLlNLSUxMIL9Wpfq0dSAzMkdCKML5s3ExNkdCKjIpIEQ0LTQwMDAgRjQtNDAwMEMxOEQtMzJHVFpOW0ZPUiBSNTAwMF0=</div>
+<span onclick='Show(this)'><img src='/eval/6/gskilltridenzneox2.jpg'><div class=t>芝奇 G.SKILL 燄光戟 32GB(雙通16GB*2) D4-4000 F4-4000C18D-32GTZN[FOR R5000]</div>
+<div class=x>含稅：NT9990 &nbsp;&diams;<a href='https://www.gskill.com/tw/product/203/327/1617700314/F4-4000C18D-32GTZN' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(233, this)' onclick="Buy('233')">Buy</font></div></span>
+
+<div class=w>VU1BWCBOQiA4R0IgRERSNC0yNDAwKDEwMjQqOCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxnbddr4.jpg'><div class=t>UMAX NB 8GB DDR4-2400(1024*8)</div>
+<div class=x>含稅：NT1950 &nbsp;&diams;<a href='https://www.xander.com.tw/user2/item/?id=75E2IHMADBB73YS' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(234, this)' onclick="Buy('234')">Buy</font></div></span>
+
+<div class=w>VU1BWCBOQiA4R0IgRERSNC0yNjY2KDEwMjQqOCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxnbd42666.jpg'><div class=t>UMAX NB 8GB DDR4-2666(1024*8)</div>
+<div class=x>含稅：NT1980 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=75NCPU1YODD675H' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(235, this)' onclick="Buy('235')">Buy</font></div></span>
+
+<div class=w>VU1BWCBOQiA4R0IgRERSNC0zMjAwKDEwMjQqOCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxnbd42666.jpg'><div class=t>UMAX NB 8GB DDR4-3200(1024*8)</div>
+<div class=x>含稅：NT1990 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=75WHHVNR2MQDJTY' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(236, this)' onclick="Buy('236')">Buy</font></div></span>
+
+<div class=w>VU1BWCBOQiAxNkdCIEREUjQtMjQwMCgxMDI0Kjgp</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxnbddr4.jpg'><div class=t>UMAX NB 16GB DDR4-2400(1024*8)</div>
+<div class=x>含稅：NT3850 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=75E2IHM6473RU8D' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(237, this)' onclick="Buy('237')">Buy</font></div></span>
+
+<div class=w>VU1BWCBOQiAxNkdCIEREUjQtMjY2NigxMDI0Kjgp</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxnbd42666.jpg'><div class=t>UMAX NB 16GB DDR4-2666(1024*8)</div>
+<div class=x>含稅：NT3850 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=75NCPU1YH6KK3O6' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(238, this)' onclick="Buy('238')">Buy</font></div></span>
+
+<div class=w>VU1BWCBOQiAxNkdCIEREUjQtMjY2NigyMDQ4Kjgp</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxnbd42666.jpg'><div class=t>UMAX NB 16GB DDR4-2666(2048*8)</div>
+<div class=x>含稅：NT3900 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=75WHHVNTV100ETZ' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(239, this)' onclick="Buy('239')">Buy</font></div></span>
+
+<div class=w>VU1BWCBOQiAxNkdCIEREUjQtMzIwMCgxMDI0Kjgp</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxnb16gd4.jpg'><div class=t>UMAX NB 16GB DDR4-3200(1024*8)</div>
+<div class=x>含稅：NT3950 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=75WHHVNOSPDVMHH' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(240, this)' onclick="Buy('240')">Buy</font></div></span>
+
+<div class=w>VU1BWCBOQiAzMkdCIEREUjQtMzIwMCgyMDQ4Kjgp</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxnbd42666.jpg'><div class=t>UMAX NB 32GB DDR4-3200(2048*8)</div>
+<div class=x>含稅：NT8500 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=75WHHVNJO6HOKBN' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(241, this)' onclick="Buy('241')">Buy</font></div></span>
+
+<div class=w>q8Kt6CBOQiA4R0IgRERSNC0zMjAwKEFENFMzMjAwMzhHMjItU0dOKSgxMDI0Kjgp</div>
+<span onclick='Show(this)'><img src='/eval/6/adatad4nb.jpg'><div class=t>威剛 NB 8GB DDR4-3200(AD4S320038G22-SGN)(1024*8)</div>
+<div class=x>含稅：NT2299 &nbsp;&diams;<a href='https://www.adata.com/tw/consumer/category/computer-memory/654/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(242, this)' onclick="Buy('242')">Buy</font></div></span>
+
+<div class=w>q8Kt6CBOQiAxNkdCIEREUjQtMzIwMChBRDRTMzIwMDMxNkcyMi1TR04pKDEwMjQqOCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/adatad4nb.jpg'><div class=t>威剛 NB 16GB DDR4-3200(AD4S3200316G22-SGN)(1024*8)</div>
+<div class=x>含稅：NT4599 &nbsp;&diams;<a href='https://www.adata.com/tw/consumer/category/computer-memory/654/' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(243, this)' onclick="Buy('243')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IE5CIDhHQiBERFI0LTMyMDAoS1ZSMzJTMjJTOC84KSgxMDI0Kjgp</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond4nb.jpg'><div class=t>金士頓 NB 8GB DDR4-3200(KVR32S22S8/8)(1024*8)</div>
+<div class=x>含稅：NT3200 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/client/ddr4-3200mts-non_ecc-unbuffered-sodimm' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(244, this)' onclick="Buy('244')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IE5CIDhHQiBERFI0LTMyMDAoS1ZSMzJTMjJTOC84KSgxMDI0Kjgpfrdmvve7+X4=</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond4nb.jpg'><div class=t>金士頓 NB 8GB DDR4-3200(KVR32S22S8/8)(1024*8)~搭機價~</div>
+<div class=x>含稅：NT2500 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/client/ddr4-3200mts-non_ecc-unbuffered-sodimm' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(245, this)' onclick="Buy('245')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IE5CIDE2R0IgRERSNC0zMjAwKEtWUjMyUzIyUzgvMTYpKDIwNDgqOCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond4nb.jpg'><div class=t>金士頓 NB 16GB DDR4-3200(KVR32S22S8/16)(2048*8)</div>
+<div class=x>含稅：NT5950 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/client/ddr4-3200mts-non_ecc-unbuffered-sodimm' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(246, this)' onclick="Buy('246')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IE5CIDMyR0IgRERSNC0zMjAwKEtWUjMyUzIyRDgvMzIpKDIwNDgqOCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstond4nb.jpg'><div class=t>金士頓 NB 32GB DDR4-3200(KVR32S22D8/32)(2048*8)</div>
+<div class=x>含稅：NT14000 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/client/ddr4-3200mts-non_ecc-unbuffered-sodimm' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(247, this)' onclick="Buy('247')">Buy</font></div></span>
+
+<div class=w>VU1BWCA4R0IgRERSMy0xNjAwKDUxMio4KQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/umax8gd3.jpg'><div class=t>UMAX 8GB DDR3-1600(512*8)</div>
+<div class=x>含稅：NT679 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=74RADB7NOTAVKHQ' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(248, this)' onclick="Buy('248')">Buy</font></div></span>
+
+<div class=w>VU1BWCAxNkdCKML5s3G5RDhHKjIpRERSMy0xNjAwp3S0srz2pPkoNTEyKjgp</div>
+<span onclick='Show(this)'><img src='/eval/6/umax8gx2d3.jpg'><div class=t>UMAX 16GB(雙通道8G*2)DDR3-1600含散熱片(512*8)</div>
+<div class=x>含稅：NT1339 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=74RK26SZJBRFKET' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(249, this)' onclick="Buy('249')">Buy</font></div></span>
+
+<div class=w>VU1BWCBOQiA4R0IgRERSM0wtMTYwMCCnQ7lxwKMoNTEyKjgp</div>
+<span onclick='Show(this)'><img src='/eval/6/umaxnb8gd3l1600.jpg'><div class=t>UMAX NB 8GB DDR3L-1600 低電壓(512*8)</div>
+<div class=x>含稅：NT679 &nbsp;&diams;<a href='http://www.xander.com.tw/user2/item/?id=750DVIGPHJYV3CO' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(250, this)' onclick="Buy('250')">Buy</font></div></span>
+
+<div class=w>qvekaLl5IE5CIDhHQiBERFIzTC0xNjAwIKdDuXHAoyhLVlIxNkxTMTEvOCkoNTEyKjgp</div>
+<span onclick='Show(this)'><img src='/eval/6/kingnbd3.jpg'><div class=t>金士頓 NB 8GB DDR3L-1600 低電壓(KVR16LS11/8)(512*8)</div>
+<div class=x>含稅：NT1600 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/client/ddr3-1600mts-non_ecc-unbuffered-sodimm' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(251, this)' onclick="Buy('251')">Buy</font></div></span>
+
+<div class=w>qvekaLl5MzJHQiA1NjAwTVQvcyBENSBFQ0MgQ0w0NiBESU1NIDJSeDggSHluaXggQShLU001NkU0NkJEOEtNLzMySEEp</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstoneccd5.jpg'><div class=t>金士頓32GB 5600MT/s D5 ECC CL46 DIMM 2Rx8 Hynix A(KSM56E46BD8KM/32HA)</div>
+<div class=x>含稅：NT29900 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/search?partid=KSM48E40BS8KM-16HM' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(252, this)' onclick="Buy('252')">Buy</font></div></span>
+
+<div class=w>qvekaLl5MTZHQiA1NjAwTVQvcyBENSBFQ0MgUmVnIENMNDYgRElNTSAxUio4IEh5bml4IEEgUmFtYnVzIChLU001NlI0NkJTOC8xNkhBKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstonddr5rdimm.jpg'><div class=t>金士頓16GB 5600MT/s D5 ECC Reg CL46 DIMM 1R*8 Hynix A Rambus (KSM56R46BS8/16HA)</div>
+<div class=x>含稅：NT15700 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/server-premier/ddr5-5600mts-ecc-registered-dimm' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(253, this)' onclick="Buy('253')">Buy</font></div></span>
+
+<div class=w>qvekaLl5MzJHQiA1NjAwTVQvcyBENSBFQ0MgUmVnIENMNDYgRElNTSAyUio4IEh5bml4IEEgUmFtYnVzIChLU001NlI0NkJEOC8zMkhBKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstonddr5rdimm.jpg'><div class=t>金士頓32GB 5600MT/s D5 ECC Reg CL46 DIMM 2R*8 Hynix A Rambus (KSM56R46BD8/32HA)</div>
+<div class=x>含稅：NT31000 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/search?partid=KSM56R46BD8-32HA' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(254, this)' onclick="Buy('254')">Buy</font></div></span>
+
+<div class=w>q8Kt6DMyR0IgNTYwME1UL3MgRDUgRUNDIFJlZyBDTDQ2IERJTU0gMlIqOCBIeW5peCBBIGRpZSAoQUQ1UjU2MDAzMkcyMC1TSFlBKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/'><div class=t>威剛32GB 5600MT/s D5 ECC Reg CL46 DIMM 2R*8 Hynix A die (AD5R560032G20-SHYA)</div>
+<div class=x>含稅：NT33999 &nbsp;<font class=buy onmouseover='url(255, this)' onclick="Buy('255')">Buy</font></div></span>
+
+<div class=w>q8Kt6DY0R0IgNTYwME1UL3MgRDUgRUNDIFJlZyBDTDQ2IERJTU0gMlIqNCBIeW5peCBBIGRpZSAoQUQ1UjU2MDA2NEc0MC1TSFlBKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/'><div class=t>威剛64GB 5600MT/s D5 ECC Reg CL46 DIMM 2R*4 Hynix A die (AD5R560064G40-SHYA)</div>
+<div class=x>含稅：NT81999 &nbsp;<font class=buy onmouseover='url(256, this)' onclick="Buy('256')">Buy</font></div></span>
+
+<div class=w>pFSsUDY0R0IgNTYwME1UL3MgRDUgRUNDIFJlZyBDTDQ2IERJTU0gMlIqNCBTQU1TVU5HKE0zMjFSOEdBMEVCMi1DV01LSCk=</div>
+<span onclick='Show(this)'><img src='/eval/6/'><div class=t>三星64GB 5600MT/s D5 ECC Reg CL46 DIMM 2R*4 SAMSUNG(M321R8GA0EB2-CWMKH)</div>
+<div class=x>含稅：NT83000 &nbsp;<font class=buy onmouseover='url(257, this)' onclick="Buy('257')">Buy</font></div></span>
+
+<div class=w>pFSsUDY0R0IgNjQwME1UL3MgRDUgRUNDIFJlZyBDTDQ2IERJTU0gMlIqNCBTQU1TVU5HKE0zMjFSOEdBMEVCMi1DQ1BXQyk=</div>
+<span onclick='Show(this)'><img src='/eval/6/'><div class=t>三星64GB 6400MT/s D5 ECC Reg CL46 DIMM 2R*4 SAMSUNG(M321R8GA0EB2-CCPWC)</div>
+<div class=x>含稅：NT86000 &nbsp;<font class=buy onmouseover='url(258, this)' onclick="Buy('258')">Buy</font></div></span>
+
+<div class=w>pFSsUDk2R0IgNjQwME1UL3MgRDUgRUNDIFJlZyBDTDUyIERJTU0gMlIqNCBTQU1TVU5HKE0zMjFSWUdBT1BCMi1DQ1Ap</div>
+<span onclick='Show(this)'><img src='/eval/6/'><div class=t>三星96GB 6400MT/s D5 ECC Reg CL52 DIMM 2R*4 SAMSUNG(M321RYGAOPB2-CCP)</div>
+<div class=x>含稅：NT159000 &nbsp;<font class=buy onmouseover='url(259, this)' onclick="Buy('259')">Buy</font></div></span>
+
+<div class=w>pFSsUDEyOEdCIDY0MDBNVC9zIEQ1IEVDQyBSZWcgQ0w1MiBESU1NIDJSKjQgU0FNU1VORyhNMzIxUkFKQU9NQjItQ0NQKQ==</div>
+<span onclick='Show(this)'><img src='/eval/6/'><div class=t>三星128GB 6400MT/s D5 ECC Reg CL52 DIMM 2R*4 SAMSUNG(M321RAJAOMB2-CCP)</div>
+<div class=x>含稅：NT168000 &nbsp;<font class=buy onmouseover='url(260, this)' onclick="Buy('260')">Buy</font></div></span>
+
+<div class=w>qvekaLl5MzJHQiAzMjAwTUh6IEQ0IEVDQyBSZWcgQ0wyMiBESU1NIDJSKjggSHluaXggQyBSYW1idXMgKEtTTTMyUkQ4LzMySEQp</div>
+<span onclick='Show(this)'><img src='/eval/6/kingstoneccrdimm.jpg'><div class=t>金士頓32GB 3200MHz D4 ECC Reg CL22 DIMM 2R*8 Hynix C Rambus (KSM32RD8/32HD)</div>
+<div class=x>含稅：NT15200 &nbsp;&diams;<a href='https://www.kingston.com/tw/memory/server-premier/ddr4-3200mts-ecc-registered-dimm' target=_BLANK>開箱討論</a> &nbsp;<font class=buy onmouseover='url(261, this)' onclick="Buy('261')">Buy</font></div></span>
+</div>
+<form name=F action='/evaluate.php'><input type=hidden name=iBuy></form>
+</body></html>

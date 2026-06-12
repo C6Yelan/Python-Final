@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CPU Product Schema",
+  "type": "object",
+  "additionalProperties": false,
+
+  "required": [
+    "category",
+    "display_name",
+    "price",
+    "extra"
+  ],
+
+  "properties": {
+    "category": {
+      "type": "string",
+      "const": "CPU"
+    },
+
+    "display_name": {
+      "type": "string",
+      "minLength": 1
+    },
+
+    "price": {
+      "type": "integer",
+      "minimum": 0
+    },
+
+    "extra": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "brand",
+        "model",
+        "core_count",
+        "thread_count",
+        "base_clock_ghz",
+        "max_clock_ghz"
+      ],
+
+      "properties": {
+        "brand": {
+          "type": ["string", "null"],
+          "enum": ["Intel", "AMD", null]
+        },
+
+        "model": {
+          "type": ["string", "null"]
+        },
+
+        "core_count": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+
+        "thread_count": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+
+        "base_clock_ghz": {
+          "type": ["number", "null"],
+          "minimum": 0
+        },
+
+        "max_clock_ghz": {
+          "type": ["number", "null"],
+          "minimum": 0
+        }
+      }
+    }
+  }
+}
