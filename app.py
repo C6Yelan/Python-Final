@@ -36,6 +36,9 @@ st.set_page_config(
 
 st.title("電腦零件商品資料整理與查詢系統")
 
+# 全域搜尋框，所有零件類別共用同一個搜尋關鍵字
+search_keyword = st.text_input("搜尋商品名稱")
+
 # 使用parser.py讀取HTML，並取得商品資料
 product_list = parse_all_html_files(part_files, html_folder)
 
@@ -58,9 +61,21 @@ else:
                 if product["category"] == part_name:
                     current_products.append(product)
 
+            # 如果有輸入關鍵字，就只保留商品名稱包含關鍵字的資料
+            if search_keyword != "":
+                searched_products = []
+
+                for product in current_products:
+                    if search_keyword in product["display_name"]:
+                        searched_products.append(product)
+
+                st.write("符合搜尋：" + str(len(searched_products)) + " 筆")
+            else:
+                searched_products = current_products
+
             if part_name in detailed_part_names:
                 # 詳細分析類別才做JSON Schema格式檢查
-                valid_products, invalid_products = split_valid_products(current_products)
+                valid_products, invalid_products = split_valid_products(searched_products)
 
                 error_count = 0
 
@@ -91,12 +106,12 @@ else:
 
             else:
                 # 其他類別只做基本商品列表，不做詳細欄位驗證
-                valid_products = current_products
+                valid_products = searched_products
 
                 st.write("讀取商品：" + str(len(current_products)) + " 筆")
 
             if len(valid_products) == 0:
-                st.error(part_name + " 沒有任何商品資料，無法顯示商品表格。")
+                st.error(part_name + " 沒有符合條件的商品資料，無法顯示商品表格。")
             else:
                 # 將商品資料整理成畫面要顯示的表格資料
                 display_products = format_products_for_table(valid_products, part_name)
