@@ -53,7 +53,7 @@
 
         "memory_type": {
           "type": ["string"],
-          "enum": ["DDR4", "DDR5"]
+          "enum": ["DDR3", "DDR4", "DDR5"]
         },
 
         "speed": {

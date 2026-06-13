@@ -51,13 +51,15 @@ def get_ram_memory_type(title):
         return "DDR5"
     elif "DDR4" in title or "D4" in title:
         return "DDR4"
+    elif "DDR3" in title or "D3" in title:
+        return "DDR3"
     else:
         return None
 
 
 def get_ram_speed(title):
-    result = re.search(r"(DDR4|DDR5|D4|D5)[ -]?(\d+)", title, re.IGNORECASE)
-    # (DDR4|DDR5|D4|D5)表示先找到記憶體類型
+    result = re.search(r"(DDR3|DDR4|DDR5|D3|D4|D5)[ -]?(\d+)", title, re.IGNORECASE)
+    # (DDR3|DDR4|DDR5|D3|D4|D5)表示先找到記憶體類型
     # [ -]?表示中間可以有空白、減號，或完全沒有
     # (\d+)表示抓出後面的頻率數字，例如5600
 
