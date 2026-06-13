@@ -36,6 +36,9 @@ def get_schema_by_category(category):
     if category == "CPU":
         return load_schema("schemas/cpu.schema.json")
 
+    if category == "記憶體":
+        return load_schema("schemas/ram.schema.json")
+
     if category == "儲存裝置":
         return load_schema("schemas/storage.schema.json")
 

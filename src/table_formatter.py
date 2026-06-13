@@ -1,6 +1,8 @@
 def format_products_for_table(products, part_name):
     if part_name == "CPU":
         table = format_cpu_products(products)
+    elif part_name == "記憶體":
+        table = format_ram_products(products)
     elif part_name == "儲存裝置":
         table = format_storage_products(products)
     else:
@@ -38,6 +40,27 @@ def format_cpu_products(products):
                 "thread_count": extra.get("thread_count"),
                 "base_clock_ghz": extra.get("base_clock_ghz"),
                 "max_clock_ghz": extra.get("max_clock_ghz"),
+                "price": format_price(product.get("price", 0)),
+            }
+        )
+
+    return table
+
+
+def format_ram_products(products):
+    table = []
+
+    for product in products:
+        extra = product.get("extra")  # 取出記憶體分析結果
+
+        table.append(
+            {
+                "brand": extra.get("brand"),
+                "capacity": extra.get("capacity"),
+                "memory_type": extra.get("memory_type"),
+                "speed": extra.get("speed"),
+                "cl": extra.get("cl"),
+                "module_count": extra.get("module_count"),
                 "price": format_price(product.get("price", 0)),
             }
         )

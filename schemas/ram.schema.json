@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RAM Product Schema",
+  "type": "object",
+  "additionalProperties": false,
+
+  "required": [
+    "category",
+    "display_name",
+    "price",
+    "extra"
+  ],
+
+  "properties": {
+    "category": {
+      "type": "string",
+      "const": "記憶體"
+    },
+
+    "display_name": {
+      "type": "string",
+      "minLength": 1
+    },
+
+    "price": {
+      "type": "integer",
+      "minimum": 0
+    },
+
+    "extra": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "brand",
+        "capacity",
+        "memory_type",
+        "speed",
+        "cl",
+        "module_count"
+      ],
+
+      "properties": {
+        "brand": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "capacity": {
+          "type": ["string"],
+          "minLength": 1
+        },
+
+        "memory_type": {
+          "type": ["string"],
+          "enum": ["DDR4", "DDR5"]
+        },
+
+        "speed": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+
+        "cl": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+
+        "module_count": {
+          "type": ["integer", "null"],
+          "enum": [1, 2, null]
+        }
+      }
+    }
+  }
+}
