@@ -4,7 +4,7 @@ from pathlib import Path
 from jsonschema import Draft202012Validator  # Draft202012Validator是jsonschema套件中其中一種驗證器
 
 
-basic_product_schema = {  # 暫時性使用，後面會移除
+basic_product_schema = {
     "type": "object",
     "properties": {
         "category": {
