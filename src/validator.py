@@ -24,7 +24,7 @@ basic_product_schema = {
 
 
 def load_schema(schema_path):
-    # 讀取schema資料夾中的JSON檔案
+    # 讀取schemas資料夾中的JSON檔案
     schema_file = Path(schema_path)
     schema_text = schema_file.read_text(encoding="utf-8")
 
@@ -46,32 +46,18 @@ def get_schema_by_category(category):
 
 
 def split_valid_products(products):
-    # 接收商品資料，逐一驗證並根據結果分為正確與錯誤資料
+    # 接收商品資料，逐一驗證並分成通過與未通過兩類
     valid_products = []
     invalid_products = []
 
-    for index in range(len(products)):
-        product = products[index]  # 取出要驗證的商品資料
-        category = product.get("category", "")  # 取出商品類別
+    for product in products:
+        category = product.get("category", "")
         schema = get_schema_by_category(category)
         validator = Draft202012Validator(schema)
-        errors = list(validator.iter_errors(product))  # 透過iter_errors可收集同商品的多個錯誤
 
-        if len(errors) == 0:
+        if validator.is_valid(product):
             valid_products.append(product)
         else:
-            error_messages = []
-
-            for error in errors:
-                # error.json_path是錯誤欄位的位置，error.message是錯誤原因
-                error_messages.append(error.json_path + "：" + error.message)
-
-            invalid_products.append(
-                {
-                    "index": index + 1,
-                    "display_name": product.get("display_name", "無商品名稱"),
-                    "errors": error_messages,
-                }
-            )
+            invalid_products.append(product)
 
     return valid_products, invalid_products

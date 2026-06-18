@@ -62,32 +62,14 @@ else:
                 # 詳細分析類別才做JSON Schema格式檢查
                 valid_products, invalid_products = split_valid_products(current_products)
 
-                error_count = 0
-
-                for invalid_product in invalid_products:
-                    error_count = error_count + len(invalid_product["errors"])
-
                 st.write("讀取商品：" + str(len(current_products)) + " 筆")
                 st.write("通過驗證：" + str(len(valid_products)) + " 筆")
                 st.write("錯誤商品：" + str(len(invalid_products)) + " 筆")
-                st.write("錯誤項目：" + str(error_count) + " 個")
 
                 if len(invalid_products) == 0:
                     st.success(part_name + " 資料格式檢查通過。")
                 else:
-                    st.warning(part_name + " 資料格式檢查發現問題，有問題的商品已從正常表格中排除。")
-
-                    with st.expander("查看" + part_name + "資料格式錯誤"):
-                        for invalid_product in invalid_products:
-                            st.write(
-                                "第 "
-                                + str(invalid_product["index"])
-                                + " 筆："
-                                + invalid_product["display_name"]
-                            )
-
-                            for error_message in invalid_product["errors"]:
-                                st.write("- " + error_message)
+                    st.warning(part_name + " 有資料格式錯誤，錯誤商品已從正常表格中排除。")
 
             else:
                 # 其他類別只做基本商品列表，不做詳細欄位驗證
